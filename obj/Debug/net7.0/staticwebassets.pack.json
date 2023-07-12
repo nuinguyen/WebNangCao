@@ -1,0 +1,2945 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\BTL\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BTL.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BTL.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\Images\\1\\2022-06-03.png",
+      "PackagePath": "staticwebassets\\Images\\1\\2022-06-03.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\Images\\3\\2022-01-06.png",
+      "PackagePath": "staticwebassets\\Images\\3\\2022-01-06.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\advanced-datatable\\media\\css\\demo_page.css",
+      "PackagePath": "staticwebassets\\assets\\advanced-datatable\\media\\css\\demo_page.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\advanced-datatable\\media\\css\\demo_table.css",
+      "PackagePath": "staticwebassets\\assets\\advanced-datatable\\media\\css\\demo_table.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\advanced-datatable\\media\\images\\back_disabled.png",
+      "PackagePath": "staticwebassets\\assets\\advanced-datatable\\media\\images\\back_disabled.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\advanced-datatable\\media\\images\\back_enabled.png",
+      "PackagePath": "staticwebassets\\assets\\advanced-datatable\\media\\images\\back_enabled.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\advanced-datatable\\media\\images\\back_enabled_hover.png",
+      "PackagePath": "staticwebassets\\assets\\advanced-datatable\\media\\images\\back_enabled_hover.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\advanced-datatable\\media\\images\\forward_disabled.png",
+      "PackagePath": "staticwebassets\\assets\\advanced-datatable\\media\\images\\forward_disabled.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\advanced-datatable\\media\\images\\forward_enabled.png",
+      "PackagePath": "staticwebassets\\assets\\advanced-datatable\\media\\images\\forward_enabled.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\advanced-datatable\\media\\images\\forward_enabled_hover.png",
+      "PackagePath": "staticwebassets\\assets\\advanced-datatable\\media\\images\\forward_enabled_hover.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\advanced-datatable\\media\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\assets\\advanced-datatable\\media\\images\\sort_asc.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\advanced-datatable\\media\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\assets\\advanced-datatable\\media\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\advanced-datatable\\media\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\assets\\advanced-datatable\\media\\images\\sort_both.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\advanced-datatable\\media\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\assets\\advanced-datatable\\media\\images\\sort_desc.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\advanced-datatable\\media\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\assets\\advanced-datatable\\media\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\advanced-datatable\\media\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\assets\\advanced-datatable\\media\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-colorpicker\\css\\colorpicker.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-colorpicker\\css\\colorpicker.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-colorpicker\\img\\alpha.png",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-colorpicker\\img\\alpha.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-colorpicker\\img\\hue.png",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-colorpicker\\img\\hue.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-colorpicker\\img\\saturation.png",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-colorpicker\\img\\saturation.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-colorpicker\\js\\bootstrap-colorpicker.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-colorpicker\\js\\bootstrap-colorpicker.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-datepicker\\css\\datepicker.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-datepicker\\css\\datepicker.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-datepicker\\js\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-datepicker\\js\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-daterangepicker\\date.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-daterangepicker\\date.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-daterangepicker\\daterangepicker-bs3.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-daterangepicker\\daterangepicker-bs3.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-daterangepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-daterangepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-daterangepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-daterangepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-daterangepicker\\moment.min.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-daterangepicker\\moment.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-datetimepicker\\css\\datetimepicker.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-datetimepicker\\css\\datetimepicker.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-datetimepicker\\js\\bootstrap-datetimepicker.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-datetimepicker\\js\\bootstrap-datetimepicker.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-fileupload\\bootstrap-fileupload.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-fileupload\\bootstrap-fileupload.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-fileupload\\bootstrap-fileupload.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-fileupload\\bootstrap-fileupload.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-inputmask\\bootstrap-inputmask.min.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-inputmask\\bootstrap-inputmask.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-timepicker\\compiled\\timepicker.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-timepicker\\compiled\\timepicker.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-timepicker\\js\\bootstrap-timepicker.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-timepicker\\js\\bootstrap-timepicker.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-wysihtml5\\bootstrap-wysihtml5.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-wysihtml5\\bootstrap-wysihtml5.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-wysihtml5\\bootstrap-wysihtml5.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-wysihtml5\\bootstrap-wysihtml5.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\bootstrap-wysihtml5\\wysihtml5-0.3.0.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap-wysihtml5\\wysihtml5-0.3.0.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\chart-master\\Chart.js",
+      "PackagePath": "staticwebassets\\assets\\chart-master\\Chart.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\ckeditor\\ckeditor.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor\\ckeditor.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\data-tables\\DT_bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\data-tables\\DT_bootstrap.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\data-tables\\DT_bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\data-tables\\DT_bootstrap.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\data-tables\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\assets\\data-tables\\images\\sort_asc.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\data-tables\\images\\sort_asc_disabled.html",
+      "PackagePath": "staticwebassets\\assets\\data-tables\\images\\sort_asc_disabled.html"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\data-tables\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\assets\\data-tables\\images\\sort_both.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\data-tables\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\assets\\data-tables\\images\\sort_desc.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\data-tables\\images\\sort_desc_disabled.html",
+      "PackagePath": "staticwebassets\\assets\\data-tables\\images\\sort_desc_disabled.html"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\data-tables\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\assets\\data-tables\\jquery.dataTables.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\ajaxdemo.html",
+      "PackagePath": "staticwebassets\\assets\\demo\\ajaxdemo.html"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\avatar\\avatar_01.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\avatar\\avatar_01.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\avatar\\avatar_02.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\avatar\\avatar_02.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\avatar\\avatar_03.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\avatar\\avatar_03.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\avatar\\avatar_04.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\avatar\\avatar_04.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\avatar\\avatar_05.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\avatar\\avatar_05.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\avatar\\avatar_06.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\avatar\\avatar_06.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\avatar\\avatar_07.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\avatar\\avatar_07.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\avatar\\avatar_08.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\avatar\\avatar_08.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\avatar\\avatar_09.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\avatar\\avatar_09.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\avatar\\avatar_10.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\avatar\\avatar_10.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\avatar\\avatar_11.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\avatar\\avatar_11.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\avatar\\avatar_13.png",
+      "PackagePath": "staticwebassets\\assets\\demo\\avatar\\avatar_13.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-advancedpanels.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-advancedpanels.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-alerts.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-alerts.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-app-blogfront-portfolio.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-app-blogfront-portfolio.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-app-inbox-compose.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-app-inbox-compose.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-app-todo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-app-todo.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-calendar.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-calendar.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-chartjs.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-chartjs.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-charts-easypiechart.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-charts-easypiechart.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-custom-ionrange.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-custom-ionrange.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-custom-notific8.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-custom-notific8.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-custom-skylo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-custom-skylo.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-custom-weather.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-custom-weather.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-datatables.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-datatables.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-extras-gallery.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-extras-gallery.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-fixedheadertables.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-fixedheadertables.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-flotgraph.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-flotgraph.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-formcomponents.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-formcomponents.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-formvalidation.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-formvalidation.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-formwizard.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-formwizard.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-gmaps.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-gmaps.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-imagecrop.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-imagecrop.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-index.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-index.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-inlinecharts.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-inlinecharts.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-jqueryui.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-jqueryui.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-jstree.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-jstree.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-layout-chatbar-overlay.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-layout-chatbar-overlay.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-mapael.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-mapael.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-mask.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-mask.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-modals.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-modals.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-morrisjs.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-morrisjs.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-nestable.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-nestable.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-notes.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-notes.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-pickers.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-pickers.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-switcher.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-switcher.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-tableeditable.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-tableeditable.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-tables-advanceddatatables.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-tables-advanceddatatables.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-tasks.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-tasks.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-tour.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-tour.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-ui-tiles.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-ui-tiles.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo-xeditable.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo-xeditable.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demo.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\demos-jqvmap.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\demos-jqvmap.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\images\\arch_fountain.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\arch_fountain.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\images\\thmb_arch_building.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\thmb_arch_building.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\images\\thmb_ind_code.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\thmb_ind_code.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\images\\thmb_nature_mossytree.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\images\\thmb_nature_mossytree.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\beauty_01.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\beauty_01.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\beauty_02.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\beauty_02.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\beauty_03.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\beauty_03.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\beauty_05.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\beauty_05.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\beauty_06.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\beauty_06.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\beauty_07.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\beauty_07.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\beauty_10.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\beauty_10.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\blog_01.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\blog_01.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\blog_02.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\blog_02.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\blog_03.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\blog_03.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\blog_04.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\blog_04.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\blog_05.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\blog_05.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\blog_05_post.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\blog_05_post.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\blog_06.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\blog_06.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\blog_07.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\blog_07.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\blog_08.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\blog_08.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\blog_09.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\blog_09.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\communication_01.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\communication_01.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\communication_02.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\communication_02.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\communication_04.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\communication_04.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\communication_05.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\communication_05.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\communication_08.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\communication_08.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\communication_09.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\communication_09.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\communication_12_carousel.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\communication_12_carousel.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\music_01.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\music_01.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\music_02.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\music_02.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\music_04.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\music_04.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\music_06.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\music_06.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\music_08.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\music_08.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\music_10.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\music_10.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\music_11.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\music_11.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\music_12.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\music_12.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\portfolio_01.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\portfolio_01.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\portfolio_02.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\portfolio_02.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\portfolio_03.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\portfolio_03.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\portfolio_04.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\portfolio_04.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\portfolio_05.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\portfolio_05.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\portfolio_06.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\portfolio_06.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\demo\\stockphoto\\portfolio_07.jpg",
+      "PackagePath": "staticwebassets\\assets\\demo\\stockphoto\\portfolio_07.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\dropzone\\css\\dropzone.css",
+      "PackagePath": "staticwebassets\\assets\\dropzone\\css\\dropzone.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\dropzone\\dropzone.js",
+      "PackagePath": "staticwebassets\\assets\\dropzone\\dropzone.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\dropzone\\images\\spritemap.png",
+      "PackagePath": "staticwebassets\\assets\\dropzone\\images\\spritemap.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\dropzone\\images\\spritemap@2x.png",
+      "PackagePath": "staticwebassets\\assets\\dropzone\\images\\spritemap@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fancybox\\source\\blank.gif",
+      "PackagePath": "staticwebassets\\assets\\fancybox\\source\\blank.gif"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fancybox\\source\\fancybox_loading.gif",
+      "PackagePath": "staticwebassets\\assets\\fancybox\\source\\fancybox_loading.gif"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fancybox\\source\\fancybox_overlay.png",
+      "PackagePath": "staticwebassets\\assets\\fancybox\\source\\fancybox_overlay.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fancybox\\source\\fancybox_sprite.png",
+      "PackagePath": "staticwebassets\\assets\\fancybox\\source\\fancybox_sprite.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fancybox\\source\\jquery.fancybox.css",
+      "PackagePath": "staticwebassets\\assets\\fancybox\\source\\jquery.fancybox.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fancybox\\source\\jquery.fancybox.js",
+      "PackagePath": "staticwebassets\\assets\\fancybox\\source\\jquery.fancybox.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\file-uploader\\css\\jquery.fileupload-noscript.css",
+      "PackagePath": "staticwebassets\\assets\\file-uploader\\css\\jquery.fileupload-noscript.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\file-uploader\\css\\jquery.fileupload-ui-noscript.css",
+      "PackagePath": "staticwebassets\\assets\\file-uploader\\css\\jquery.fileupload-ui-noscript.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\file-uploader\\css\\jquery.fileupload-ui.css",
+      "PackagePath": "staticwebassets\\assets\\file-uploader\\css\\jquery.fileupload-ui.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\file-uploader\\css\\jquery.fileupload.css",
+      "PackagePath": "staticwebassets\\assets\\file-uploader\\css\\jquery.fileupload.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\file-uploader\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\file-uploader\\img\\loading.gif"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\file-uploader\\img\\progressbar.gif",
+      "PackagePath": "staticwebassets\\assets\\file-uploader\\img\\progressbar.gif"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\file-uploader\\js\\jquery.fileupload-audio.js",
+      "PackagePath": "staticwebassets\\assets\\file-uploader\\js\\jquery.fileupload-audio.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\file-uploader\\js\\jquery.fileupload-image.js",
+      "PackagePath": "staticwebassets\\assets\\file-uploader\\js\\jquery.fileupload-image.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\file-uploader\\js\\jquery.fileupload-process.js",
+      "PackagePath": "staticwebassets\\assets\\file-uploader\\js\\jquery.fileupload-process.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\file-uploader\\js\\jquery.fileupload-ui.js",
+      "PackagePath": "staticwebassets\\assets\\file-uploader\\js\\jquery.fileupload-ui.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\file-uploader\\js\\jquery.fileupload-validate.js",
+      "PackagePath": "staticwebassets\\assets\\file-uploader\\js\\jquery.fileupload-validate.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\file-uploader\\js\\jquery.fileupload-video.js",
+      "PackagePath": "staticwebassets\\assets\\file-uploader\\js\\jquery.fileupload-video.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\file-uploader\\js\\jquery.fileupload.js",
+      "PackagePath": "staticwebassets\\assets\\file-uploader\\js\\jquery.fileupload.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\file-uploader\\js\\jquery.iframe-transport.js",
+      "PackagePath": "staticwebassets\\assets\\file-uploader\\js\\jquery.iframe-transport.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\file-uploader\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\file-uploader\\js\\main.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\file-uploader\\js\\vendor\\jquery.ui.widget.js",
+      "PackagePath": "staticwebassets\\assets\\file-uploader\\js\\vendor\\jquery.ui.widget.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\flot\\jquery.flot.crosshair.js",
+      "PackagePath": "staticwebassets\\assets\\flot\\jquery.flot.crosshair.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\flot\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\assets\\flot\\jquery.flot.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\flot\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\assets\\flot\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\flot\\jquery.flot.resize.js",
+      "PackagePath": "staticwebassets\\assets\\flot\\jquery.flot.resize.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\flot\\jquery.flot.stack.js",
+      "PackagePath": "staticwebassets\\assets\\flot\\jquery.flot.stack.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\font-awesome\\fonts\\fontawesome-webfontba72.eot",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\fonts\\fontawesome-webfontba72.eot"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\font-awesome\\fonts\\fontawesome-webfontba72.html",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\fonts\\fontawesome-webfontba72.html"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\font-awesome\\fonts\\fontawesome-webfontba72.svg",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\fonts\\fontawesome-webfontba72.svg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\font-awesome\\fonts\\fontawesome-webfontba72.woff",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\fonts\\fontawesome-webfontba72.woff"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\font-awesome\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fonts\\artill\\artill_clean_icons-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\artill\\artill_clean_icons-webfont.eot"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fonts\\artill\\artill_clean_icons-webfont.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\artill\\artill_clean_icons-webfont.html"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fonts\\artill\\artill_clean_icons-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\artill\\artill_clean_icons-webfont.ttf"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fonts\\artill\\artill_clean_icons-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\artill\\artill_clean_icons-webfont.woff"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fonts\\artill\\artill_clean_icons-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\artill\\artill_clean_icons-webfontd41d.eot"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fonts\\css\\jquery.smartmenus.bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\fonts\\css\\jquery.smartmenus.bootstrap.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fonts\\css\\styles.css",
+      "PackagePath": "staticwebassets\\assets\\fonts\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fonts\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\fonts\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fonts\\font-awesome\\fonts\\fontawesome-webfont78ce.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\font-awesome\\fonts\\fontawesome-webfont78ce.eot"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fonts\\font-awesome\\fonts\\fontawesome-webfont78ce.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\font-awesome\\fonts\\fontawesome-webfont78ce.svg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fonts\\font-awesome\\fonts\\fontawesome-webfont78ce.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\font-awesome\\fonts\\fontawesome-webfont78ce.ttf"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fonts\\font-awesome\\fonts\\fontawesome-webfont78ce.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\font-awesome\\fonts\\fontawesome-webfont78ce.woff"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fonts\\font-awesome\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\font-awesome\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fuelux\\css\\tree-style.css",
+      "PackagePath": "staticwebassets\\assets\\fuelux\\css\\tree-style.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fuelux\\img\\tree-icons.png",
+      "PackagePath": "staticwebassets\\assets\\fuelux\\img\\tree-icons.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fuelux\\js\\spinner.min.js",
+      "PackagePath": "staticwebassets\\assets\\fuelux\\js\\spinner.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fuelux\\js\\tree.min.js",
+      "PackagePath": "staticwebassets\\assets\\fuelux\\js\\tree.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fullcalendar\\fullcalendar\\bootstrap-fullcalendar.css",
+      "PackagePath": "staticwebassets\\assets\\fullcalendar\\fullcalendar\\bootstrap-fullcalendar.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\fullcalendar\\fullcalendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\assets\\fullcalendar\\fullcalendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\gritter\\css\\jquery.gritter.css",
+      "PackagePath": "staticwebassets\\assets\\gritter\\css\\jquery.gritter.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\gritter\\images\\gritter-light.png",
+      "PackagePath": "staticwebassets\\assets\\gritter\\images\\gritter-light.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\gritter\\images\\gritter.png",
+      "PackagePath": "staticwebassets\\assets\\gritter\\images\\gritter.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\gritter\\images\\ie-spacer.gif",
+      "PackagePath": "staticwebassets\\assets\\gritter\\images\\ie-spacer.gif"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\gritter\\js\\jquery.gritter.js",
+      "PackagePath": "staticwebassets\\assets\\gritter\\js\\jquery.gritter.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jcrop\\css\\Jcrop.gif",
+      "PackagePath": "staticwebassets\\assets\\jcrop\\css\\Jcrop.gif"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jcrop\\css\\jquery.Jcrop.min.css",
+      "PackagePath": "staticwebassets\\assets\\jcrop\\css\\jquery.Jcrop.min.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jcrop\\js\\jquery.Jcrop.min.js",
+      "PackagePath": "staticwebassets\\assets\\jcrop\\js\\jquery.Jcrop.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jcrop\\js\\jquery.color.js",
+      "PackagePath": "staticwebassets\\assets\\jcrop\\js\\jquery.color.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-easy-pie-chart\\jquery.easy-pie-chart.css",
+      "PackagePath": "staticwebassets\\assets\\jquery-easy-pie-chart\\jquery.easy-pie-chart.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-easy-pie-chart\\jquery.easy-pie-chart.js",
+      "PackagePath": "staticwebassets\\assets\\jquery-easy-pie-chart\\jquery.easy-pie-chart.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-file-upload\\css\\jquery.fileupload-ui.css",
+      "PackagePath": "staticwebassets\\assets\\jquery-file-upload\\css\\jquery.fileupload-ui.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-file-upload\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\jquery-file-upload\\img\\loading.gif"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-file-upload\\img\\progressbar.gif",
+      "PackagePath": "staticwebassets\\assets\\jquery-file-upload\\img\\progressbar.gif"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-file-upload\\js\\jquery.fileupload-fp.js",
+      "PackagePath": "staticwebassets\\assets\\jquery-file-upload\\js\\jquery.fileupload-fp.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-file-upload\\js\\jquery.fileupload-ui.js",
+      "PackagePath": "staticwebassets\\assets\\jquery-file-upload\\js\\jquery.fileupload-ui.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-file-upload\\js\\jquery.fileupload.js",
+      "PackagePath": "staticwebassets\\assets\\jquery-file-upload\\js\\jquery.fileupload.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-file-upload\\js\\jquery.iframe-transport.js",
+      "PackagePath": "staticwebassets\\assets\\jquery-file-upload\\js\\jquery.iframe-transport.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-file-upload\\js\\vendor\\canvas-to-blob.min.js",
+      "PackagePath": "staticwebassets\\assets\\jquery-file-upload\\js\\vendor\\canvas-to-blob.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-file-upload\\js\\vendor\\jquery.ui.widget.js",
+      "PackagePath": "staticwebassets\\assets\\jquery-file-upload\\js\\vendor\\jquery.ui.widget.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-file-upload\\js\\vendor\\load-image.min.js",
+      "PackagePath": "staticwebassets\\assets\\jquery-file-upload\\js\\vendor\\load-image.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-file-upload\\js\\vendor\\tmpl.min.js",
+      "PackagePath": "staticwebassets\\assets\\jquery-file-upload\\js\\vendor\\tmpl.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-knob\\js\\jquery.knob.js",
+      "PackagePath": "staticwebassets\\assets\\jquery-knob\\js\\jquery.knob.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-multi-select\\css\\multi-select.css",
+      "PackagePath": "staticwebassets\\assets\\jquery-multi-select\\css\\multi-select.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-multi-select\\img\\switch.png",
+      "PackagePath": "staticwebassets\\assets\\jquery-multi-select\\img\\switch.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-multi-select\\js\\jquery.multi-select.js",
+      "PackagePath": "staticwebassets\\assets\\jquery-multi-select\\js\\jquery.multi-select.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-multi-select\\js\\jquery.quicksearch.js",
+      "PackagePath": "staticwebassets\\assets\\jquery-multi-select\\js\\jquery.quicksearch.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-ui\\images\\animated-overlay.gif",
+      "PackagePath": "staticwebassets\\assets\\jquery-ui\\images\\animated-overlay.gif"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-ui\\images\\ui-bg_diagonals-thick_18_b81900_40x40.png",
+      "PackagePath": "staticwebassets\\assets\\jquery-ui\\images\\ui-bg_diagonals-thick_18_b81900_40x40.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-ui\\images\\ui-bg_diagonals-thick_20_666666_40x40.png",
+      "PackagePath": "staticwebassets\\assets\\jquery-ui\\images\\ui-bg_diagonals-thick_20_666666_40x40.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-ui\\images\\ui-bg_flat_10_000000_40x100.png",
+      "PackagePath": "staticwebassets\\assets\\jquery-ui\\images\\ui-bg_flat_10_000000_40x100.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-ui\\images\\ui-bg_glass_100_f6f6f6_1x400.png",
+      "PackagePath": "staticwebassets\\assets\\jquery-ui\\images\\ui-bg_glass_100_f6f6f6_1x400.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-ui\\images\\ui-bg_glass_100_fdf5ce_1x400.png",
+      "PackagePath": "staticwebassets\\assets\\jquery-ui\\images\\ui-bg_glass_100_fdf5ce_1x400.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-ui\\images\\ui-bg_glass_65_ffffff_1x400.png",
+      "PackagePath": "staticwebassets\\assets\\jquery-ui\\images\\ui-bg_glass_65_ffffff_1x400.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-ui\\images\\ui-bg_gloss-wave_35_f6a828_500x100.png",
+      "PackagePath": "staticwebassets\\assets\\jquery-ui\\images\\ui-bg_gloss-wave_35_f6a828_500x100.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-ui\\images\\ui-bg_highlight-soft_100_eeeeee_1x100.png",
+      "PackagePath": "staticwebassets\\assets\\jquery-ui\\images\\ui-bg_highlight-soft_100_eeeeee_1x100.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-ui\\images\\ui-bg_highlight-soft_75_ffe45c_1x100.png",
+      "PackagePath": "staticwebassets\\assets\\jquery-ui\\images\\ui-bg_highlight-soft_75_ffe45c_1x100.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-ui\\images\\ui-icons_222222_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\jquery-ui\\images\\ui-icons_222222_256x240.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-ui\\images\\ui-icons_228ef1_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\jquery-ui\\images\\ui-icons_228ef1_256x240.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-ui\\images\\ui-icons_ef8c08_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\jquery-ui\\images\\ui-icons_ef8c08_256x240.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-ui\\images\\ui-icons_ffd27a_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\jquery-ui\\images\\ui-icons_ffd27a_256x240.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-ui\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\jquery-ui\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-ui\\jquery-ui-1.10.1.custom.min.css",
+      "PackagePath": "staticwebassets\\assets\\jquery-ui\\jquery-ui-1.10.1.custom.min.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\jquery-ui\\jquery-ui-1.10.1.custom.min.js",
+      "PackagePath": "staticwebassets\\assets\\jquery-ui\\jquery-ui-1.10.1.custom.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\js\\application.js",
+      "PackagePath": "staticwebassets\\assets\\js\\application.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\js\\enquire.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\enquire.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\js\\images\\animated-overlay.gif",
+      "PackagePath": "staticwebassets\\assets\\js\\images\\animated-overlay.gif"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\js\\images\\ui-bg_flat_0_2b6bd9_40x100.png",
+      "PackagePath": "staticwebassets\\assets\\js\\images\\ui-bg_flat_0_2b6bd9_40x100.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\js\\images\\ui-bg_flat_0_aaaaaa_40x100.png",
+      "PackagePath": "staticwebassets\\assets\\js\\images\\ui-bg_flat_0_aaaaaa_40x100.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\js\\images\\ui-bg_flat_0_e6e7e8_40x100.png",
+      "PackagePath": "staticwebassets\\assets\\js\\images\\ui-bg_flat_0_e6e7e8_40x100.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\js\\images\\ui-bg_flat_0_edeef0_40x100.png",
+      "PackagePath": "staticwebassets\\assets\\js\\images\\ui-bg_flat_0_edeef0_40x100.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\js\\images\\ui-bg_flat_0_f7f8fa_40x100.png",
+      "PackagePath": "staticwebassets\\assets\\js\\images\\ui-bg_flat_0_f7f8fa_40x100.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\js\\images\\ui-bg_flat_0_ffffff_40x100.png",
+      "PackagePath": "staticwebassets\\assets\\js\\images\\ui-bg_flat_0_ffffff_40x100.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\js\\images\\ui-bg_glass_95_fef1ec_1x400.png",
+      "PackagePath": "staticwebassets\\assets\\js\\images\\ui-bg_glass_95_fef1ec_1x400.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\js\\images\\ui-icons_1a1a1a_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\js\\images\\ui-icons_1a1a1a_256x240.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\js\\images\\ui-icons_cd0a0a_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\js\\images\\ui-icons_cd0a0a_256x240.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\js\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\js\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\js\\jquery-1.10.2.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-1.10.2.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\js\\jquery.layout.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.layout.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\js\\jqueryui-1.9.2.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jqueryui-1.9.2.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\js\\jqueryui.css",
+      "PackagePath": "staticwebassets\\assets\\js\\jqueryui.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\morris.js-0.4.3\\morris.css",
+      "PackagePath": "staticwebassets\\assets\\morris.js-0.4.3\\morris.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\morris.js-0.4.3\\morris.min.js",
+      "PackagePath": "staticwebassets\\assets\\morris.js-0.4.3\\morris.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\morris.js-0.4.3\\raphael-min.js",
+      "PackagePath": "staticwebassets\\assets\\morris.js-0.4.3\\raphael-min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\nestable\\jquery.nestable.css",
+      "PackagePath": "staticwebassets\\assets\\nestable\\jquery.nestable.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\nestable\\jquery.nestable.js",
+      "PackagePath": "staticwebassets\\assets\\nestable\\jquery.nestable.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\Ion.RangeSlider\\css\\ion.rangeSlider.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\Ion.RangeSlider\\css\\ion.rangeSlider.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\Ion.RangeSlider\\css\\ion.rangeSlider.skinNice.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\Ion.RangeSlider\\css\\ion.rangeSlider.skinNice.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\Ion.RangeSlider\\img\\sprite-skin-nice.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\Ion.RangeSlider\\img\\sprite-skin-nice.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\Ion.RangeSlider\\js\\ion-rangeSlider\\ion.rangeSlider.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\Ion.RangeSlider\\js\\ion-rangeSlider\\ion.rangeSlider.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\bootbox\\bootbox.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootbox\\bootbox.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\bootstrap-datetimepicker\\js\\bootstrap-datetimepicker.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datetimepicker\\js\\bootstrap-datetimepicker.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\bootstrap-switch\\bootstrap-switch.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-switch\\bootstrap-switch.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\bootstrap-tabdrop\\js\\bootstrap-tabdrop.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-tabdrop\\js\\bootstrap-tabdrop.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\bootstrap-timepicker\\bootstrap-timepicker.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-timepicker\\bootstrap-timepicker.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.min.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\bootstro.js\\bootstro.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstro.js\\bootstro.min.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\bootstro.js\\bootstro.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstro.js\\bootstro.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\card\\lib\\css\\card.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\card\\lib\\css\\card.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\card\\lib\\js\\card.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\card\\lib\\js\\card.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\charts-chartjs\\Chart.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\charts-chartjs\\Chart.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\charts-flot\\jquery.flot.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\charts-flot\\jquery.flot.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\charts-flot\\jquery.flot.orderBars.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\charts-flot\\jquery.flot.orderBars.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\charts-flot\\jquery.flot.pie.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\charts-flot\\jquery.flot.pie.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\charts-flot\\jquery.flot.resize.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\charts-flot\\jquery.flot.resize.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\charts-flot\\jquery.flot.resize.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\charts-flot\\jquery.flot.resize.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\charts-flot\\jquery.flot.stack.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\charts-flot\\jquery.flot.stack.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\charts-flot\\jquery.flot.tooltip.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\charts-flot\\jquery.flot.tooltip.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\charts-morrisjs\\morris.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\charts-morrisjs\\morris.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\charts-morrisjs\\raphael.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\charts-morrisjs\\raphael.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\clockface\\css\\clockface.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\clockface\\css\\clockface.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\clockface\\js\\clockface.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\clockface\\js\\clockface.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\codeprettifier\\prettify.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\codeprettifier\\prettify.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\codeprettifier\\prettify.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\codeprettifier\\prettify.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\datatables\\ColReorder\\css\\dataTables.colReorder.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatables\\ColReorder\\css\\dataTables.colReorder.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\datatables\\ColReorder\\js\\dataTables.colReorder.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatables\\ColReorder\\js\\dataTables.colReorder.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\datatables\\KeyTable\\css\\dataTables.keyTable.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatables\\KeyTable\\css\\dataTables.keyTable.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\datatables\\KeyTable\\js\\dataTables.keyTable.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatables\\KeyTable\\js\\dataTables.keyTable.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\datatables\\TableTools.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatables\\TableTools.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\datatables\\TableTools\\js\\dataTables.tableTools.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatables\\TableTools\\js\\dataTables.tableTools.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\datatables\\dataTables.bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatables\\dataTables.bootstrap.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\datatables\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatables\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\datatables\\dataTables.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatables\\dataTables.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\datatables\\dataTables.editor.bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatables\\dataTables.editor.bootstrap.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\datatables\\dataTables.editor.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatables\\dataTables.editor.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\datatables\\dataTables.fontAwesome.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatables\\dataTables.fontAwesome.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\datatables\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatables\\images\\sort_asc.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\datatables\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatables\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\datatables\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatables\\images\\sort_both.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\datatables\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatables\\images\\sort_desc.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\datatables\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatables\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\datatables\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datatables\\jquery.dataTables.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\datepaginator\\bootstrap-datepaginator.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datepaginator\\bootstrap-datepaginator.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\datepaginator\\bootstrap-datepaginator.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\datepaginator\\bootstrap-datepaginator.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\dropzone\\css\\dropzone.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\dropzone\\css\\dropzone.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\dropzone\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\dropzone\\dropzone.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\dropzone\\images\\spritemap.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\dropzone\\images\\spritemap.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\dropzone\\images\\spritemap@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\dropzone\\images\\spritemap@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\easypiechart\\jquery.easypiechart.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\easypiechart\\jquery.easypiechart.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-autosize\\jquery.autosize-min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-autosize\\jquery.autosize-min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-ckeditor\\ckeditor.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-ckeditor\\ckeditor.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-ckeditor\\index.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-ckeditor\\index.html"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-colorpicker\\img\\bootstrap-colorpicker\\alpha.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-colorpicker\\img\\bootstrap-colorpicker\\alpha.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-colorpicker\\img\\bootstrap-colorpicker\\hue.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-colorpicker\\img\\bootstrap-colorpicker\\hue.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-colorpicker\\img\\bootstrap-colorpicker\\saturation.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-colorpicker\\img\\bootstrap-colorpicker\\saturation.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-colorpicker\\js\\bootstrap-colorpicker.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-colorpicker\\js\\bootstrap-colorpicker.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-daterangepicker\\daterangepicker-bs3.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-daterangepicker\\daterangepicker-bs3.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-daterangepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-daterangepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-daterangepicker\\moment.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-daterangepicker\\moment.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-fseditor\\fseditor.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-fseditor\\fseditor.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-fseditor\\jquery.fseditor-min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-fseditor\\jquery.fseditor-min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-inputmask\\jquery.inputmask.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-inputmask\\jquery.inputmask.bundle.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-jasnyupload\\fileinput.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-jasnyupload\\fileinput.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-multiselect\\css\\multi-select.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-multiselect\\css\\multi-select.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-multiselect\\img\\switch.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-multiselect\\img\\switch.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-multiselect\\js\\jquery.multi-select.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-multiselect\\js\\jquery.multi-select.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-nestable\\jquery.nestable.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-nestable\\jquery.nestable.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-nestable\\jquery.nestable.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-nestable\\jquery.nestable.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-pagedown\\css\\jquery.pagedown-bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-pagedown\\css\\jquery.pagedown-bootstrap.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-pagedown\\js\\jquery.pagedown-bootstrap.combined.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-pagedown\\js\\jquery.pagedown-bootstrap.combined.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-parsley\\parsley.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-parsley\\parsley.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-select2\\select2-spinner.gif",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-select2\\select2-spinner.gif"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-select2\\select2.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-select2\\select2.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-select2\\select2.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-select2\\select2.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-select2\\select2.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-select2\\select2x2.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-select2\\select2x2.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-stepy\\jquery.stepy.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-stepy\\jquery.stepy.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-tokenfield\\bootstrap-tokenfield.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-tokenfield\\bootstrap-tokenfield.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-tokenfield\\bootstrap-tokenfield.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-tokenfield\\bootstrap-tokenfield.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-typeahead\\typeahead.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-typeahead\\typeahead.bundle.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-validation\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-validation\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-xeditable\\bootstrap3-editable\\css\\bootstrap-editable.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-xeditable\\bootstrap3-editable\\css\\bootstrap-editable.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-xeditable\\bootstrap3-editable\\img\\clear.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-xeditable\\bootstrap3-editable\\img\\clear.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-xeditable\\bootstrap3-editable\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-xeditable\\bootstrap3-editable\\img\\loading.gif"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\form-xeditable\\bootstrap3-editable\\js\\bootstrap-editable.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\form-xeditable\\bootstrap3-editable\\js\\bootstrap-editable.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\fullcalendar\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fullcalendar\\fullcalendar.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\fullcalendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fullcalendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\gmaps\\gmaps.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\gmaps\\gmaps.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\gridforms\\gridforms\\gridforms.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\gridforms\\gridforms\\gridforms.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\gridforms\\gridforms\\gridforms.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\gridforms\\gridforms\\gridforms.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\icheck.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\icheck.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\_all.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\_all.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\aero.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\aero.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\aero@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\aero@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\blue.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\blue.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\blue@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\blue@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\flat.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\flat.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\flat@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\flat@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\green.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\green.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\green@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\green@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\grey.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\grey.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\grey@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\grey@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\orange.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\orange.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\orange@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\orange@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\pink.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\pink.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\pink@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\pink@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\purple.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\purple.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\purple@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\purple@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\red.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\red.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\red@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\red@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\yellow.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\yellow.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\flat\\yellow@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\flat\\yellow@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\_all.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\_all.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\aero.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\aero.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\aero@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\aero@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\blue.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\blue.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\blue.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\blue.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\blue@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\blue@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\green.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\green.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\green@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\green@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\grey.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\grey.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\grey@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\grey@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\minimal.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\minimal.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\minimal@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\minimal@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\orange.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\orange.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\orange@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\orange@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\pink.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\pink.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\pink@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\pink@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\purple.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\purple.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\purple@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\purple@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\red.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\red.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\red@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\red@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\yellow.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\yellow.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\minimal\\yellow@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\minimal\\yellow@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\_all.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\_all.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\aero.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\aero.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\aero@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\aero@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\blue.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\blue.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\blue@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\blue@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\green.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\green.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\green@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\green@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\grey.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\grey.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\grey@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\grey@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\orange.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\orange.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\orange@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\orange@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\pink.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\pink.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\pink@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\pink@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\purple.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\purple.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\purple@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\purple@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\red.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\red.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\red@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\red@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\square.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\square.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\square@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\square@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\yellow.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\yellow.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\iCheck\\skins\\square\\yellow@2x.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\iCheck\\skins\\square\\yellow@2x.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\images\\sort_asc.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\images\\sort_asc.html"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\images\\sort_asc_disabled.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\images\\sort_asc_disabled.html"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\images\\sort_both.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\images\\sort_both.html"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\images\\sort_desc.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\images\\sort_desc.html"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\images\\sort_desc_disabled.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\images\\sort_desc_disabled.html"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jQuery-Mapael\\js\\jquery.mapael.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jQuery-Mapael\\js\\jquery.mapael.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jQuery-Mapael\\js\\maps\\usa_states.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jQuery-Mapael\\js\\maps\\usa_states.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jQuery-Mapael\\js\\maps\\world_countries.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jQuery-Mapael\\js\\maps\\world_countries.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jQuery-Mapael\\js\\raphael\\raphael-min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jQuery-Mapael\\js\\raphael\\raphael-min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jQuery-mousewheel\\jquery.mousewheel.min.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jQuery-mousewheel\\jquery.mousewheel.min.html"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jcrop\\css\\Jcrop.gif",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jcrop\\css\\Jcrop.gif"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jcrop\\css\\jquery.Jcrop.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jcrop\\css\\jquery.Jcrop.min.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jcrop\\js\\jquery.Jcrop.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jcrop\\js\\jquery.Jcrop.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jquery-editable\\jquery.editable.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-editable\\jquery.editable.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jquery-notific8\\jquery.notific8.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-notific8\\jquery.notific8.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jquery-notific8\\jquery.notific8.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-notific8\\jquery.notific8.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jquery-slimscroll\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-slimscroll\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jqvmap\\data\\jquery.vmap.sampledata.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jqvmap\\data\\jquery.vmap.sampledata.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jqvmap\\jquery.vmap.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jqvmap\\jquery.vmap.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jqvmap\\jqvmap.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jqvmap\\jqvmap.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jqvmap\\maps\\jquery.vmap.algeria.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jqvmap\\maps\\jquery.vmap.algeria.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jqvmap\\maps\\jquery.vmap.europe.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jqvmap\\maps\\jquery.vmap.europe.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jqvmap\\maps\\jquery.vmap.france.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jqvmap\\maps\\jquery.vmap.france.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jqvmap\\maps\\jquery.vmap.germany.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jqvmap\\maps\\jquery.vmap.germany.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jqvmap\\maps\\jquery.vmap.russia.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jqvmap\\maps\\jquery.vmap.russia.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jqvmap\\maps\\jquery.vmap.usa.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jqvmap\\maps\\jquery.vmap.usa.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jqvmap\\maps\\jquery.vmap.world.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jqvmap\\maps\\jquery.vmap.world.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jstree\\dist\\jstree.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jstree\\dist\\jstree.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jstree\\dist\\themes\\avalon\\32px.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jstree\\dist\\themes\\avalon\\32px.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jstree\\dist\\themes\\avalon\\40px.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jstree\\dist\\themes\\avalon\\40px.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jstree\\dist\\themes\\avalon\\style.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jstree\\dist\\themes\\avalon\\style.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jstree\\dist\\themes\\avalon\\style.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jstree\\dist\\themes\\avalon\\style.min.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\jstree\\dist\\themes\\avalon\\throbber.gif",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jstree\\dist\\themes\\avalon\\throbber.gif"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\knob\\jquery.knob.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\knob\\jquery.knob.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\pines-notify\\jquery.pnotify.default.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\pines-notify\\jquery.pnotify.default.html"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\pines-notify\\jquery.pnotify.min.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\pines-notify\\jquery.pnotify.min.html"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\pines-notify\\pnotify.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\pines-notify\\pnotify.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\pines-notify\\pnotify.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\pines-notify\\pnotify.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\powerwidgets\\js\\jquery.ui.touch-punch.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\powerwidgets\\js\\jquery.ui.touch-punch.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\powerwidgets\\js\\json2.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\powerwidgets\\js\\json2.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\powerwidgets\\js\\powerwidgets.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\powerwidgets\\js\\powerwidgets.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\progress-skylo\\skylo.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\progress-skylo\\skylo.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\progress-skylo\\skylo.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\progress-skylo\\skylo.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\pulsate\\jQuery.pulsate.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\pulsate\\jQuery.pulsate.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\quicksearch\\jquery.quicksearch.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\quicksearch\\jquery.quicksearch.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\shufflejs\\jquery.shuffle.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\shufflejs\\jquery.shuffle.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\shufflejs\\modernizr.custom.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\shufflejs\\modernizr.custom.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\simpleWeather\\jquery.simpleWeather.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\simpleWeather\\jquery.simpleWeather.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\smartmenus\\addons\\bootstrap\\jquery.smartmenus.bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\smartmenus\\addons\\bootstrap\\jquery.smartmenus.bootstrap.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\smartmenus\\jquery.smartmenus.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\smartmenus\\jquery.smartmenus.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\sparklines\\jquery.sparklines.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\sparklines\\jquery.sparklines.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\summernote\\dist\\summernote.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\summernote\\dist\\summernote.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\summernote\\dist\\summernote.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\summernote\\dist\\summernote.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\switchery\\switchery.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\switchery\\switchery.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\switchery\\switchery.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\switchery\\switchery.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\tables-fixedheader\\css\\dataTables.fixedHeader.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\tables-fixedheader\\css\\dataTables.fixedHeader.min.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\plugins\\tables-fixedheader\\js\\dataTables.fixedHeader.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\tables-fixedheader\\js\\dataTables.fixedHeader.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\summernote\\dist\\summernote.css",
+      "PackagePath": "staticwebassets\\assets\\summernote\\dist\\summernote.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\summernote\\dist\\summernote.min.js",
+      "PackagePath": "staticwebassets\\assets\\summernote\\dist\\summernote.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\toastr-master\\toastr.css",
+      "PackagePath": "staticwebassets\\assets\\toastr-master\\toastr.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\toastr-master\\toastr.js",
+      "PackagePath": "staticwebassets\\assets\\toastr-master\\toastr.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\xchart\\d3.v3.min.js",
+      "PackagePath": "staticwebassets\\assets\\xchart\\d3.v3.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\xchart\\xcharts.css",
+      "PackagePath": "staticwebassets\\assets\\xchart\\xcharts.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\assets\\xchart\\xcharts.min.js",
+      "PackagePath": "staticwebassets\\assets\\xchart\\xcharts.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\css\\Admin\\bootstrap-reset.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\bootstrap-reset.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\css\\Admin\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\css\\Admin\\gallery.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\gallery.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\css\\Admin\\image-crop.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\image-crop.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\css\\Admin\\invoice-print.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\invoice-print.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\css\\Admin\\jquery.steps.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\jquery.steps.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\css\\Admin\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\css\\Admin\\site.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\site.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\css\\Admin\\slidebars.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\slidebars.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\css\\Admin\\soon.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\soon.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\css\\Admin\\style-responsive.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\style-responsive.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\css\\Admin\\style.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\style.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\css\\Admin\\table-responsive.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\table-responsive.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\css\\Admin\\tasks.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\tasks.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\css\\Admin\\yamm.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\yamm.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\css\\img\\nav-expand.png",
+      "PackagePath": "staticwebassets\\css\\img\\nav-expand.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\css\\img\\search-icon.png",
+      "PackagePath": "staticwebassets\\css\\img\\search-icon.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\404_icon.png",
+      "PackagePath": "staticwebassets\\img\\404_icon.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\500_icon.png",
+      "PackagePath": "staticwebassets\\img\\500_icon.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\arrow-up.png",
+      "PackagePath": "staticwebassets\\img\\arrow-up.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\avatar-mini.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar-mini.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\avatar-mini2.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar-mini2.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\avatar-mini3.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar-mini3.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\avatar-mini4.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar-mini4.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\avatar1.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar1.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\avatar1_small.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar1_small.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\blue-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\blue-bg.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\chart-texture.jpg",
+      "PackagePath": "staticwebassets\\img\\chart-texture.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\chat-attach.jpg",
+      "PackagePath": "staticwebassets\\img\\chat-attach.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\chat-avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\chat-avatar.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\chat-avatar2.jpg",
+      "PackagePath": "staticwebassets\\img\\chat-avatar2.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\chat-search.png",
+      "PackagePath": "staticwebassets\\img\\chat-search.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\checkbox\\check-off.png",
+      "PackagePath": "staticwebassets\\img\\checkbox\\check-off.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\checkbox\\check-on.png",
+      "PackagePath": "staticwebassets\\img\\checkbox\\check-on.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\checkbox\\radio-off.png",
+      "PackagePath": "staticwebassets\\img\\checkbox\\radio-off.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\checkbox\\radio-on.png",
+      "PackagePath": "staticwebassets\\img\\checkbox\\radio-on.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\customSelect-arrow.gif",
+      "PackagePath": "staticwebassets\\img\\customSelect-arrow.gif"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\dark-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\dark-bg.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\email-img\\banner.jpg",
+      "PackagePath": "staticwebassets\\img\\email-img\\banner.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\email-img\\icon-cal.png",
+      "PackagePath": "staticwebassets\\img\\email-img\\icon-cal.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\email-img\\icon-tel.png",
+      "PackagePath": "staticwebassets\\img\\email-img\\icon-tel.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\email-img\\image1.png",
+      "PackagePath": "staticwebassets\\img\\email-img\\image1.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\email-img\\image2.png",
+      "PackagePath": "staticwebassets\\img\\email-img\\image2.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\email-img\\image3.png",
+      "PackagePath": "staticwebassets\\img\\email-img\\image3.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\email-img\\image4.png",
+      "PackagePath": "staticwebassets\\img\\email-img\\image4.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\email-img\\main-img.png",
+      "PackagePath": "staticwebassets\\img\\email-img\\main-img.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\email-img\\social-facebook.png",
+      "PackagePath": "staticwebassets\\img\\email-img\\social-facebook.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\email-img\\social-google.png",
+      "PackagePath": "staticwebassets\\img\\email-img\\social-google.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\email-img\\social-linkedin.png",
+      "PackagePath": "staticwebassets\\img\\email-img\\social-linkedin.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\email-img\\social-twitter.png",
+      "PackagePath": "staticwebassets\\img\\email-img\\social-twitter.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\email-img\\social-youtube.png",
+      "PackagePath": "staticwebassets\\img\\email-img\\social-youtube.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\email-img\\vector-lab.jpg",
+      "PackagePath": "staticwebassets\\img\\email-img\\vector-lab.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\favicon-2.html",
+      "PackagePath": "staticwebassets\\img\\favicon-2.html"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\favicon.html",
+      "PackagePath": "staticwebassets\\img\\favicon.html"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\fb-img.jpg",
+      "PackagePath": "staticwebassets\\img\\fb-img.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\file-search\\ai.png",
+      "PackagePath": "staticwebassets\\img\\file-search\\ai.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\file-search\\doc.png",
+      "PackagePath": "staticwebassets\\img\\file-search\\doc.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\file-search\\email.png",
+      "PackagePath": "staticwebassets\\img\\file-search\\email.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\file-search\\eps.png",
+      "PackagePath": "staticwebassets\\img\\file-search\\eps.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\file-search\\jpg.png",
+      "PackagePath": "staticwebassets\\img\\file-search\\jpg.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\file-search\\pdf.png",
+      "PackagePath": "staticwebassets\\img\\file-search\\pdf.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\file-search\\ppt.png",
+      "PackagePath": "staticwebassets\\img\\file-search\\ppt.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\file-search\\psd.png",
+      "PackagePath": "staticwebassets\\img\\file-search\\psd.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\file-search\\rss.png",
+      "PackagePath": "staticwebassets\\img\\file-search\\rss.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\file-search\\xls.png",
+      "PackagePath": "staticwebassets\\img\\file-search\\xls.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\file-search\\zip.png",
+      "PackagePath": "staticwebassets\\img\\file-search\\zip.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\flags\\de.png",
+      "PackagePath": "staticwebassets\\img\\flags\\de.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\flags\\es.png",
+      "PackagePath": "staticwebassets\\img\\flags\\es.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\flags\\fr.png",
+      "PackagePath": "staticwebassets\\img\\flags\\fr.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\flags\\ru.png",
+      "PackagePath": "staticwebassets\\img\\flags\\ru.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\flags\\us.png",
+      "PackagePath": "staticwebassets\\img\\flags\\us.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\follower-avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\follower-avatar.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\gallery\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\1.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\gallery\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\2.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\gallery\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\3.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\gallery\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\4.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\gallery\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\5.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\gallery\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\6.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\green-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\green-bg.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\input-spinner.gif",
+      "PackagePath": "staticwebassets\\img\\input-spinner.gif"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\left-arrow.png",
+      "PackagePath": "staticwebassets\\img\\left-arrow.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\lock-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\lock-bg.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\mail-avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\mail-avatar.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\mask.png",
+      "PackagePath": "staticwebassets\\img\\mask.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\mega-menu\\corner_image.jpg",
+      "PackagePath": "staticwebassets\\img\\mega-menu\\corner_image.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\mega-menu\\mega-menu-images1.jpg",
+      "PackagePath": "staticwebassets\\img\\mega-menu\\mega-menu-images1.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\mega-menu\\mega-menu-images2.jpg",
+      "PackagePath": "staticwebassets\\img\\mega-menu\\mega-menu-images2.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\mega-menu\\mega-menu-images3.jpg",
+      "PackagePath": "staticwebassets\\img\\mega-menu\\mega-menu-images3.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\mega-menu\\mega-menu-images4.jpg",
+      "PackagePath": "staticwebassets\\img\\mega-menu\\mega-menu-images4.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\mega-menu\\mega-menu-images5.jpg",
+      "PackagePath": "staticwebassets\\img\\mega-menu\\mega-menu-images5.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\mega-menu\\mega-menu-images6.jpg",
+      "PackagePath": "staticwebassets\\img\\mega-menu\\mega-menu-images6.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\mega_icon1.png",
+      "PackagePath": "staticwebassets\\img\\mega_icon1.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\mega_icon2.png",
+      "PackagePath": "staticwebassets\\img\\mega_icon2.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\mega_icon3.png",
+      "PackagePath": "staticwebassets\\img\\mega_icon3.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\mega_icon4.png",
+      "PackagePath": "staticwebassets\\img\\mega_icon4.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\nav-expand.png",
+      "PackagePath": "staticwebassets\\img\\nav-expand.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\photos\\user1.png",
+      "PackagePath": "staticwebassets\\img\\photos\\user1.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\photos\\user2.png",
+      "PackagePath": "staticwebassets\\img\\photos\\user2.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\photos\\user3.png",
+      "PackagePath": "staticwebassets\\img\\photos\\user3.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\photos\\user4.png",
+      "PackagePath": "staticwebassets\\img\\photos\\user4.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\photos\\user5.png",
+      "PackagePath": "staticwebassets\\img\\photos\\user5.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\pro-ac-1.png",
+      "PackagePath": "staticwebassets\\img\\pro-ac-1.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\pro-ac-2.png",
+      "PackagePath": "staticwebassets\\img\\pro-ac-2.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\product-list\\pro-1.jpg",
+      "PackagePath": "staticwebassets\\img\\product-list\\pro-1.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\product-list\\pro-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\img\\product-list\\pro-thumb-1.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\product-list\\pro-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\img\\product-list\\pro-thumb-2.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\product-list\\pro-thumb-3.jpg",
+      "PackagePath": "staticwebassets\\img\\product-list\\pro-thumb-3.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\product-list\\pro-thumb-big.jpg",
+      "PackagePath": "staticwebassets\\img\\product-list\\pro-thumb-big.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\product-list\\pro1.jpg",
+      "PackagePath": "staticwebassets\\img\\product-list\\pro1.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\product-list\\pro2.jpg",
+      "PackagePath": "staticwebassets\\img\\product-list\\pro2.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\product-list\\pro3.jpg",
+      "PackagePath": "staticwebassets\\img\\product-list\\pro3.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\product1.jpg",
+      "PackagePath": "staticwebassets\\img\\product1.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\product2.png",
+      "PackagePath": "staticwebassets\\img\\product2.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\product3.png",
+      "PackagePath": "staticwebassets\\img\\product3.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\profile-avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\profile-avatar.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\purple-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\purple-bg.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\right-arrow.png",
+      "PackagePath": "staticwebassets\\img\\right-arrow.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\ring.jpg",
+      "PackagePath": "staticwebassets\\img\\ring.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\search-icon-white.png",
+      "PackagePath": "staticwebassets\\img\\search-icon-white.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\search-icon.png",
+      "PackagePath": "staticwebassets\\img\\search-icon.png"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\slider\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\1.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\sm-img-1.jpg",
+      "PackagePath": "staticwebassets\\img\\sm-img-1.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\sm-img-2.jpg",
+      "PackagePath": "staticwebassets\\img\\sm-img-2.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\sm-img-3.jpg",
+      "PackagePath": "staticwebassets\\img\\sm-img-3.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\img\\vector-lab.jpg",
+      "PackagePath": "staticwebassets\\img\\vector-lab.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\advanced-form-components.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\advanced-form-components.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\aevent.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\aevent.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\all-chartjs.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\all-chartjs.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\bootstrap-switch.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\bootstrap-switch.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\bootstrap-validator.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\bootstrap-validator.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\common-scripts.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\common-scripts.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\count.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\count.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\draggable-portlet.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\draggable-portlet.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\dynamic_table_init.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\dynamic_table_init.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\easy-pie-chart.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\easy-pie-chart.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\editable-table.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\editable-table.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\external-dragging-calendar.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\external-dragging-calendar.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\flot-chart.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\flot-chart.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\form-component.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\form-component.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\form-image-crop.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\form-image-crop.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\form-validation-script.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\form-validation-script.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\ga.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\ga.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\gmaps-scripts.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\gmaps-scripts.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\gmaps.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\gmaps.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\gritter.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\gritter.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\hover-dropdown.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\hover-dropdown.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\jquery-migrate-1.2.1.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\jquery-migrate-1.2.1.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\jquery-ui-1.9.2.custom.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\jquery-ui-1.9.2.custom.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\jquery.customSelect.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\jquery.customSelect.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\jquery.dcjqaccordion.2.7.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\jquery.dcjqaccordion.2.7.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\jquery.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\jquery.nicescroll.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\jquery.nicescroll.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\jquery.pulsate.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\jquery.pulsate.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\jquery.scrollTo.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\jquery.scrollTo.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\jquery.sparkline.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\jquery.sparkline.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\jquery.steps.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\jquery.steps.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\jquery.stepy.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\jquery.stepy.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\jquery.tagsinput.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\jquery.tagsinput.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\jquery.ui.touch-punch.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\jquery.ui.touch-punch.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\modernizr.custom.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\modernizr.custom.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\morris-script.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\morris-script.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\nestable.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\nestable.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\pulstate.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\pulstate.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\respond.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\respond.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\site.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\site.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\slidebars.min.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\slidebars.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\sliders.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\sliders.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\soon\\custom.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\soon\\custom.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\soon\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\soon\\plugins.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\sparkline-chart.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\sparkline-chart.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\tasks.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\tasks.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\toucheffects.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\toucheffects.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\Admin\\tree.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\tree.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\BTL\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BTL.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.BTL.props",
+      "PackagePath": "build\\BTL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BTL.props",
+      "PackagePath": "buildMultiTargeting\\BTL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.BTL.props",
+      "PackagePath": "buildTransitive\\BTL.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

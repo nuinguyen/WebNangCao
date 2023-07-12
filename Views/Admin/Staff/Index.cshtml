@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Nhân viên";
+    Layout = "~/Views/Shared/Admin/_AdminLayout.cshtml";
+}
+<section id="main-content">
+    <section class="wrapper site-min-height">
+        <!-- page start-->
+        <section class="panel">
+            <header class="panel-heading">
+                Nhân viên
+            </header>
+            <div class="panel-body">
+                <div class="adv-table editable-table ">
+                    <div class="clearfix">
+                        <div class="btn-group">
+                            <button id="editable-sample_new" class="btn green btn-info">
+                                <a asp-controller="Staff" asp-area="Admin" asp-action="Create">
+                                    Thêm nhân viên <i class="fa fa-plus"></i>
+                                </a>
+
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="space15"></div>
+                    <table class="table table-striped table-hover table-bordered" id="editable-sample">
+                        <thead>
+                            <tr>
+                                <th>Tên</th>
+                                <th>Email</th>
+                                <th>Ngày sinh</th>
+                                <th>Giới tính</th>
+                                <th>Số điện thoại</th>
+                                <th>Hành động</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var staff in Model)
+                            {
+                                <tr id="staff@(staff.Id)">
+                                    <td>@staff.Name</td>
+                                    <td>@staff.Email</td>
+                                    <td>@staff.Birthday.ToString("dd/MM/yyyy")</td>
+                                    <td>@(staff.Gender == null ? "" : (staff.Gender == "male" ? "Nam" : "Nữ"))</td>
+                                    <td>@staff.Phone</td>
+                                    <td>
+                                        <button class="btn btn-primary btn-xs">
+                                            <a asp-action="Edit" asp-controller="Staff" asp-area="Admin"
+                                                asp-route-id="@staff.Id">
+                                                <i class="fa fa-pencil"></i>
+                                            </a>
+                                        </button>
+                                        <button class="btn btn-danger btn-xs  _delete_staff"  data-id="@staff.Id">
+
+                                                <i class="fa fa-trash-o "></i>                                           
+                                        </button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <!-- page end-->
+    </section>
+</section>

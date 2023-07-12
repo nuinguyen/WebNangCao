@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "Thêm nhân viên";
+    Layout = "~/Views/Shared/Admin/_AdminLayout.cshtml";
+}
+<section id="main-content">
+    <section class="wrapper">
+        <!-- page start-->
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        Thêm nhân viên
+                    </header>
+                    <div class="panel-body">
+                        <form method="post" asp-controller="Staff" asp-area="Admin" asp-action="Update">
+                                <input type="hidden" name="Id" class="form-control" id="exampleInputEmail1"
+                                     value="@Model.Id">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Tên nhân viên</label>
+                                <input type="text" name="Name" class="form-control" id="exampleInputEmail1"
+                                    placeholder="Nhập tên" value="@Model.Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" name="Email" class="form-control" id="exampleInputEmail1"
+                                    placeholder="Nhập email" value="@Model.Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Ngày sinh</label>
+                                <input type="date" name="Birthday" class="form-control" id="exampleInputEmail1"
+                                    placeholder="Nhập Ngày sinh" value="@Model.Birthday.ToString("yyyy-MM-dd")">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Số điện thoại</label>
+                                <input type="text" name="Phone" class="form-control" id="exampleInputEmail1"
+                                    placeholder="Nhập số điện thoại" value="@Model.Phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Giới tính</label>
+                                <select class="form-control" id="Gender" name="Gender">
+                                    <option value="male" selected="@(Model.Gender == "male" ? "selected" : "")">Nam
+                                    </option>
+                                    <option value="female" selected="@(Model.Gender == "female" ? "selected" : "")">Nữ
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Địa chỉ</label>
+                                <textarea class="form-control " id="Address" name="Address"
+                                    required="">@Model.Address</textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" name="Password" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Password" value="@Model.Password">
+                            </div>
+
+                            <button type="submit" class="btn btn-info">Submit</button>
+                        </form>
+
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+        <!-- page end-->
+    </section>
+</section>

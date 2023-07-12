@@ -1,0 +1,116 @@
+﻿@{
+	ViewData["Title"] = "Nhà trọ";
+	Layout = "~/Views/Shared/User/_Layout.cshtml";
+}
+<div class="page-content">
+	<div class="page-heading">
+		<div class="container clearfix">
+			<h1 class="pull-left">Cho thuê nhà trọ, phòng trọ</h1>
+
+			<ol class="breadcrumb pull-right">
+
+				<li><a href="index-2.html">Home</a></li>
+				<li><a href="#">Blog</a></li>
+				<li class="active"><a href="features-boxes.html">Blog Page</a></li>
+
+			</ol>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<div class="row blog">
+			<div class="col-md-9">
+				@foreach (var motel in Model)
+				{
+					<div class="blog-post-list row">
+						<div class="col-md-4">
+							<img class="img-responsive img-rounded" decoding="async" src="~/Images/@motel.Id/@motel.Image"
+                                asp-append-version="true" width="300px" height="127px" />
+						</div>
+						<div class="col-md-8">
+							<h2><a href="#">@motel.Title</a></h2>
+							<ul class="list-inline list-unstlyed post-info">
+								<li><i class="fa fa-user"></i>@motel.Price</li>
+								<li><i class="fa fa-clock-o"></i>@(motel.Acreage.ToString() + " m\u00B2")</li>
+								<li><i class="fa fa-comment-o"></i><a href="#">Thiết bị</a></li>
+							</ul>
+							<span>@motel.Address_post</span>
+							<p>@motel.Description</p>
+						</div>
+					</div>
+					<hr>
+				}
+
+
+				<div class="clearfix">
+					<ul class="pagination mt0 mb20 pull-right">
+						<li class="disabled"><a href="#"><i class="fa fa-angle-left"></i></a></li>
+						<li class="active"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-3">
+				
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2>Lọc theo khoảng giá</h2>
+					</div>
+					<div class="panel-body panel-no-padding">
+
+						<div class="blog-post-list">
+							<div class="media">
+								<span>Dưới 1 triệu</span>
+							</div>
+							<div class="media">
+								<span>1 - 3 triệu</span>
+							</div>
+							<div class="media">
+								<span>3 - 5 triệu</span>
+							</div>
+							<div class="media">
+								<span>5 - 10 triệu</span>
+							</div>
+							<div class="media">
+								<span>1 - 40 triệu</span>
+							</div>
+							
+						</div>
+
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2>Lọc theo diện tích</h2>
+					</div>
+					<div class="panel-body panel-no-padding">
+
+						<div class="blog-post-list">
+							<div class="media">
+								<span>Dưới 30 m&sup2</span>
+							</div>
+							<div class="media">
+								<span>30 - 50 m&sup2</span>
+							</div>
+							<div class="media">
+								<span>50 - 80 m&sup2</span>
+							</div>
+							<div class="media">
+								<span>80 - 100 m&sup2</span>
+							</div>
+							
+							
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>

@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Đăng nhập";
+    Layout = "~/Views/Shared/User/_LoginLayout.cshtml";
+}
+ <div class="container">
+
+    <form class="form-signin" method="post" asp-controller="Login" asp-area="User" asp-action="Singin">
+        <h2 class="form-signin-heading">Đăng nhập ngay bây giờ</h2>
+        <div class="login-wrap">
+            <input type="text" class="form-control" name="Email" placeholder="Nhập Email" autofocus>
+            <input type="password" class="form-control" name="Password" placeholder="Nhập mật khẩu">
+            <label class="checkbox">
+                <input type="checkbox" value="remember-me">Nhớ mật khẩu
+                <span class="pull-right">
+                    <a data-toggle="modal" href="#myModal">Quên mật khẩu</a>
+
+                </span>
+            </label>
+            <button class="btn btn-lg btn-login btn-block" type="submit">Đăng nhập</button>
+
+            <div class="registration">
+                Bạn có tài khoản chưa
+                <a class="" href="registration.html">
+                    Tạo tài khoản
+                </a>
+            </div>
+
+        </div>  
+
+      </form>
+
+    </div>
+
