@@ -18,6 +18,8 @@ public partial class dbContext : DbContext
     public DbSet<Motel> tblMotel { get; set; }
     //User
     public DbSet<Users> tblUser { get; set; }
+    public DbSet<Favorite> tblFavourite { get; set; }
+    public DbSet<Favourite_detail> tblFavourite_detail { get; set; }
 
 
 

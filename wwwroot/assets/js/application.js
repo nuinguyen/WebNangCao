@@ -194,26 +194,26 @@ FixedOnSmall($('.sidebar-scroll .static-sidebar .sidebar'));
 
 window.unmatchedQuery = false;
 
-enquire.register("screen and (max-width: 767px)", {
-    match : function() {
-        //small
-        if (!$('body').hasClass("sidebar-scroll")) {
-            FixedOnSmall($('.static-sidebar .sidebar'));
-        }
-        window.unmatchedQuery = false;
-        //console.log('match- ' + window.unmatchedQuery);
-    },  
-    unmatch : function() {
-        //big
-        //destroy sidebar scroll on big screens
-        if (!$('body').hasClass("sidebar-scroll")) {
-            $('.static-sidebar .sidebar').slimscroll({destroy:true}).attr('style', '');
-            window.unmatchedQuery = true;
-            //console.log('unmatch- ' + window.unmatchedQuery);
-        }
-    },
-    deferSetup : true
-});
+// enquire.register("screen and (max-width: 767px)", {
+//     match : function() {
+//         //small
+//         if (!$('body').hasClass("sidebar-scroll")) {
+//             FixedOnSmall($('.static-sidebar .sidebar'));
+//         }
+//         window.unmatchedQuery = false;
+//         //console.log('match- ' + window.unmatchedQuery);
+//     },  
+//     unmatch : function() {
+//         //big
+//         //destroy sidebar scroll on big screens
+//         if (!$('body').hasClass("sidebar-scroll")) {
+//             $('.static-sidebar .sidebar').slimscroll({destroy:true}).attr('style', '');
+//             window.unmatchedQuery = true;
+//             //console.log('unmatch- ' + window.unmatchedQuery);
+//         }
+//     },
+//     deferSetup : true
+// });
 
 function FixedOnSmall (menuFS) {
 
@@ -533,11 +533,11 @@ function redrawLeftbar() {
 }
 
 //small screen
-enquire.register("screen and (min-width: 768px)", {
-    match : function() {
-        $('.static-sidebar').css('transform','');
-    }
-});
+// enquire.register("screen and (min-width: 768px)", {
+//     match : function() {
+//         $('.static-sidebar').css('transform','');
+//     }
+// });
 
 // -------------------------------
 // Back to Top button

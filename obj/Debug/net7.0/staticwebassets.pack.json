@@ -2697,6 +2697,10 @@
       "PackagePath": "staticwebassets\\js\\Admin\\tree.js"
     },
     {
+      "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\js\\User\\event.js",
+      "PackagePath": "staticwebassets\\js\\User\\event.js"
+    },
+    {
       "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

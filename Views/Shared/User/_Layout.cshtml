@@ -85,15 +85,24 @@
 				</div>
 
 				<ul class="nav navbar-nav toolbar pull-right">
-					@if(@ViewBag.UserId != 0){
-    				<li><a href="#"> @ViewBag.UserName</a></li>
-    				<li><a asp-area="User" asp-controller="Home" asp-action="Post">Đăng tin</a></li>
+					@if (@ViewBag.UserId != 0)
+					{
+						<li>
+							<a href="#" class="hasnotifications dropdown-toggle" data-toggle="dropdown">
+								<span class="icon-bg">
+									<i class="fa fa-heart"></i>
+								</span><span class="badge badge-alizarin badge-favourite">@ViewBag.count</span>
+							</a>
+						</li>
+						<li><a href="#"> @ViewBag.UserName</a></li>
+						<li><a asp-area="User" asp-controller="Home" asp-action="Post">Đăng tin</a></li>
 					}
-						else{
-   					 <li><a asp-area="User" asp-controller="Login" asp-action="Index">Đăng nhập</a></li>
-    					<li><a href="#">Đăng ký</a></li>
+					else
+					{
+						<li><a asp-area="User" asp-controller="Login" asp-action="Index">Đăng nhập</a></li>
+						<li><a href="#">Đăng ký</a></li>
 					}
-					
+
 
 				</ul>
 			</div>
@@ -593,7 +602,7 @@
 
 	<script src="~/assets/js/jquery-1.10.2.min.js"></script> <!-- Load jQuery -->
 	<script src="~/assets/js/bootstrap.min.js"></script> <!-- Load Bootstrap -->
-		<script src="~/assets/plugins/form-jasnyupload/fileinput.min.js"></script>               		
+	<script src="~/assets/plugins/form-jasnyupload/fileinput.min.js"></script>
 
 	<script src="~/assets/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
 	<!-- Slimscroll for custom scrolls -->
@@ -602,8 +611,8 @@
 	<script src="~/assets/plugins/smartmenus/jquery.smartmenus.js"></script> <!-- Smartmenus -->
 	<script src="~/assets/plugins/smartmenus/addons/bootstrap/jquery.smartmenus.bootstrap.js"></script>
 
-	<script src="~/assets/demo/demo.js"></script>
-	<script src="~/assets/js/application.js"></script>
+	@* <script src="~/assets/demo/demo.js"></script> *@
+	@* <script src="~/assets/js/application.js"></script> *@
 
 	<!-- End loading site level scripts -->
 
@@ -612,6 +621,7 @@
 	<script src="~/assets/plugins/bootstrap-tabdrop/js/bootstrap-tabdrop.js"></script> <!-- Bootstrap Tabdrop -->
 
 	<script src="~/assets/demo/demo-switcher.js"></script> <!-- Color Switcher for Demo -->
+	<script src="~/js/User/event.js"></script> <!-- Color Switcher for Demo -->
 
 
 </body>

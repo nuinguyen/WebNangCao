@@ -22,10 +22,10 @@ $(document).ready(
 	$(".bootstrap-switch").bootstrapSwitch();
 
 	// Custom Checkboxes
-	$('.icheck input').iCheck({
-		checkboxClass: 'icheckbox_minimal-blue',
-		radioClass: 'iradio_minimal-blue'
-	});
+	// $('.icheck input').iCheck({
+	// 	checkboxClass: 'icheckbox_minimal-blue',
+	// 	radioClass: 'iradio_minimal-blue'
+	// });
 
 
     $('ul.scrollthis').slimscroll({height: '280px'}); // Add slimscroll to topnav messeges and notifications
@@ -33,17 +33,17 @@ $(document).ready(
 
     //Demo JSTree
 
-    $('#jstree-demo').jstree({
-        "types" : {
-            "default" : {
-                "icon" : "fa fa-folder icon-state-warning icon-lg"
-            },
-            "file" : {
-                "icon" : "fa fa-file icon-state-warning icon-lg"
-            }
-        },
-        "plugins": ["types"]
-    });
+    // $('#jstree-demo').jstree({
+    //     "types" : {
+    //         "default" : {
+    //             "icon" : "fa fa-folder icon-state-warning icon-lg"
+    //         },
+    //         "file" : {
+    //             "icon" : "fa fa-file icon-state-warning icon-lg"
+    //         }
+    //     },
+    //     "plugins": ["types"]
+    // });
 
 	$('#jstree-demo').jstree();
 

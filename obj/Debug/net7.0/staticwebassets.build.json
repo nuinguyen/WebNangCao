@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oM9R8JEwQ0dgASu/Ib+lEbbO3nM8uyrteTy9NvbnVwo=",
+  "Hash": "3TucySLZA/mYBolQ+xoRzrHV+45BisK3dBSxH71rj68=",
   "Source": "BTL",
   "BasePath": "_content/BTL",
   "Mode": "Default",
@@ -11507,6 +11507,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "D:\\BTL\\WebNangCao-1\\wwwroot\\js\\User\\event.js",
+      "SourceId": "BTL",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BTL\\WebNangCao-1\\wwwroot\\",
+      "BasePath": "_content/BTL",
+      "RelativePath": "js/User/event.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\User\\event.js"
     },
     {
       "Identity": "D:\\BTL\\WebNangCao-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",

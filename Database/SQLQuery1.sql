@@ -22,7 +22,6 @@ VALUES ('Nui', 'nui@gmail.com', '2001-09-09', 'male', '09382626622', N'Thái Bì
 go
 select * from tblStaff
 go
-Drop Table tblMotel
 go
 CREATE TABLE tblMotel (
     ID INT IDENTITY(1,1) PRIMARY KEY,
@@ -62,4 +61,23 @@ INSERT INTO tblUser (Name, Email, Phone, Password)
 VALUES (N'Núi','nui@gmail.com', '0192828282', '54321'),
         (N'Quyền','quyen@gmail.com', '0322212212', '54321'),
        (N'Mạnh','manh@gmail.com', '0201011121', '54321');
+go
+go
+
+CREATE TABLE tblFavourite (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    User_id  INT,
+);
+go
+select * from tblFavourite
+go
+
+
+CREATE TABLE tblFavourite_detail (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Favourite_id  INT,
+    Motel_id  INT,
+);
+go
+select * from tblFavourite_detail
 go
