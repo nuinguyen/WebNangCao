@@ -45,7 +45,27 @@ VALUES (1,N'Phòng mới xây đẹp', N'Đẹp', 20, 1500000, 'image', N'69 Đ�
        (2,N'Phòng Chính chủ', N'Đẹp', 35, 1400000, 'image', N'Hoàng Mai Hà Nội',N'QUyền','012345678','Thái Bình','quyen@gmail.com',GETDATE(),1);
 
 go
-go
+CREATE PROCEDURE searchMotel(
+    @Address_search VARCHAR(255),
+    @min_price_search INT,
+    @max_price_search INT
+)
+AS
+BEGIN
+    IF @Address_search IS NOT NULL AND @min_price_search = 0 AND @max_price_search = 0
+    BEGIN
+        SELECT * FROM tblMotel WHERE Address LIKE CONCAT('%', @Address_search, '%');
+    END
+    ELSE IF @Address_search IS NOT NULL AND @min_price_search IS NOT NULL AND @max_price_search IS NOT NULL
+    BEGIN
+        SELECT * FROM tblMotel WHERE Address LIKE CONCAT('%', @Address_search, '%') AND Price BETWEEN @min_price_search AND @max_price_search;
+    END
+    ELSE IF @Address_search IS NULL AND @min_price_search IS NOT NULL AND @max_price_search IS NOT NULL
+    BEGIN
+        SELECT * FROM tblMotel WHERE Price BETWEEN @min_price_search AND @max_price_search;
+    END
+END;
+go 
 select * from tblMotel
 go
 
