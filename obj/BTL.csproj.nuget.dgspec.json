@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BTL\\WebNangCao-1\\BTL.csproj": {}
+    "C:\\Users\\Admin\\Documents\\thweb\\WebNangCao\\BTL.csproj": {}
   },
   "projects": {
-    "D:\\BTL\\WebNangCao-1\\BTL.csproj": {
+    "C:\\Users\\Admin\\Documents\\thweb\\WebNangCao\\BTL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BTL\\WebNangCao-1\\BTL.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\thweb\\WebNangCao\\BTL.csproj",
         "projectName": "BTL",
-        "projectPath": "D:\\BTL\\WebNangCao-1\\BTL.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\thweb\\WebNangCao\\BTL.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\BTL\\WebNangCao-1\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\thweb\\WebNangCao\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +41,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.8, )"
@@ -64,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

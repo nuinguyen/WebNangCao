@@ -21,6 +21,6 @@ public partial class dbContext : DbContext
     public DbSet<Favorite> tblFavourite { get; set; }
     public DbSet<Favourite_detail> tblFavourite_detail { get; set; }
 
-
+    public DbSet<SearchMotel> searchMotel { get; set; }
 
 }

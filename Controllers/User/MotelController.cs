@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using BTL.Models;
-
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
 namespace BTL.Controllers.User;
@@ -19,6 +19,15 @@ public class MotelController : Controller
         _context = context;
         this._hostEnvironment = hostEnvironment;
 
+    }
+    public async Task<IActionResult> Search(string Address, int min, int max)
+    {
+        var n = Address;
+        var result = await _context.searchMotel.FromSqlRaw("EXEC searchMotel @Address_search, @min_price_search, @max_price_search",
+        new SqlParameter("@Address_search", !string.IsNullOrEmpty(n) ? n : ""),
+        new SqlParameter("@min_price_search", min),
+        new SqlParameter("@max_price_search", max)).ToListAsync();
+        return View("~/Views/User/Index.cshtml", result);
     }
     [Route("/Motel/Filter")]
     public async Task<IActionResult> Filter(float? price, float? acreage)
