@@ -35,6 +35,7 @@ public class MotelController : Controller
             motel.Image = Path.GetFileName(motel.Images.FileName);
         }
         motel.Status = 1;
+        motel.Date_created = DateTime.Now;
         motel.User_id = HttpContext.Session.GetInt32("UserId") ?? 0;
         _context.tblMotel.Add(motel);
         await _context.SaveChangesAsync();

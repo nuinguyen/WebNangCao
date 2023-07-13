@@ -26,6 +26,7 @@ public class Motel
     public string ? Phone { get; set; }
     public string ? Address { get; set; }
     public string ? Email { get; set; }
+    public DateTime ? Date_created { get; set; }
     public int ? Status { get; set; }
 
 }

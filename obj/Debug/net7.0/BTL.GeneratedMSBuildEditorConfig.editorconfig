@@ -9,89 +9,89 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BTL
 build_property.RootNamespace = BTL
-build_property.ProjectDir = D:\BTL\
+build_property.ProjectDir = D:\BTL\WebNangCao-1\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\BTL
+build_property.MSBuildProjectDirectory = D:\BTL\WebNangCao-1
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/BTL/Views/Admin/Index.cshtml]
+[D:/BTL/WebNangCao-1/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTL/Views/Admin/Motel/Create.cshtml]
+[D:/BTL/WebNangCao-1/Views/Admin/Motel/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTW90ZWxcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTL/Views/Admin/Motel/Edit.cshtml]
+[D:/BTL/WebNangCao-1/Views/Admin/Motel/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTW90ZWxcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTL/Views/Admin/Motel/Index.cshtml]
+[D:/BTL/WebNangCao-1/Views/Admin/Motel/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTW90ZWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTL/Views/Admin/Staff/Create.cshtml]
+[D:/BTL/WebNangCao-1/Views/Admin/Staff/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3RhZmZcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTL/Views/Admin/Staff/Edit.cshtml]
+[D:/BTL/WebNangCao-1/Views/Admin/Staff/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3RhZmZcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTL/Views/Admin/Staff/Index.cshtml]
+[D:/BTL/WebNangCao-1/Views/Admin/Staff/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3RhZmZcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTL/Views/Shared/Admin/Error.cshtml]
+[D:/BTL/WebNangCao-1/Views/Shared/Admin/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTL/Views/Shared/Admin/Sidebar.cshtml]
+[D:/BTL/WebNangCao-1/Views/Shared/Admin/Sidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluXFNpZGViYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTL/Views/Shared/Admin/_AdminValidationScriptsPartial.cshtml]
+[D:/BTL/WebNangCao-1/Views/Shared/Admin/_AdminValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluXF9BZG1pblZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTL/Views/Shared/User/Error.cshtml]
+[D:/BTL/WebNangCao-1/Views/Shared/User/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFVzZXJcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTL/Views/Shared/User/_LoginLayout.cshtml]
+[D:/BTL/WebNangCao-1/Views/Shared/User/_LoginLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFVzZXJcX0xvZ2luTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTL/Views/Shared/User/_ValidationScriptsPartial.cshtml]
+[D:/BTL/WebNangCao-1/Views/Shared/User/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFVzZXJcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTL/Views/User/Index.cshtml]
+[D:/BTL/WebNangCao-1/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTL/Views/User/Login.cshtml]
+[D:/BTL/WebNangCao-1/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTL/Views/User/Post.cshtml]
+[D:/BTL/WebNangCao-1/Views/User/Post.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQb3N0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTL/Views/_ViewImports.cshtml]
+[D:/BTL/WebNangCao-1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTL/Views/_ViewStart.cshtml]
+[D:/BTL/WebNangCao-1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTL/Views/Shared/Admin/_AdminLayout.cshtml]
+[D:/BTL/WebNangCao-1/Views/Shared/Admin/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-jomf04183x
 
-[D:/BTL/Views/Shared/User/_Layout.cshtml]
+[D:/BTL/WebNangCao-1/Views/Shared/User/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFVzZXJcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-2x6bczzmsz

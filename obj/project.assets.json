@@ -3184,11 +3184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BTL\\BTL.csproj",
+      "projectUniqueName": "D:\\BTL\\WebNangCao-1\\BTL.csproj",
       "projectName": "BTL",
-      "projectPath": "D:\\BTL\\BTL.csproj",
+      "projectPath": "D:\\BTL\\WebNangCao-1\\BTL.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\BTL\\obj\\",
+      "outputPath": "D:\\BTL\\WebNangCao-1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
