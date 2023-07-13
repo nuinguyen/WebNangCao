@@ -37,12 +37,13 @@ CREATE TABLE tblMotel (
     Phone varchar(200),
     Address nvarchar(200),
     Email nvarchar(200),
+    Date_created Datetime,
     Status int,
 );
 go
-INSERT INTO tblMotel (User_id,Title, Description, Acreage, Price, Image, Address_post, Name,Phone,Address,Email,status )
-VALUES (1,N'Phòng mới xây đẹp', N'Đẹp', 20, 1500000, 'image', N'69 ĐỊnh Công Hà Nội',N'Mạnh','098899876','Nam ĐỊnh','manh@gmail.com',1),
-       (2,N'Phòng Chính chủ', N'Đẹp', 35, 1400000, 'image', N'Hoàng Mai Hà Nội',N'QUyền','012345678','Thái Bình','quyen@gmail.com',1);
+INSERT INTO tblMotel (User_id,Title, Description, Acreage, Price, Image, Address_post, Name,Phone,Address,Email,Date_created,status )
+VALUES (1,N'Phòng mới xây đẹp', N'Đẹp', 20, 1500000, 'image', N'69 ĐỊnh Công Hà Nội',N'Mạnh','098899876','Nam ĐỊnh','manh@gmail.com',GETDATE(),1),
+       (2,N'Phòng Chính chủ', N'Đẹp', 35, 1400000, 'image', N'Hoàng Mai Hà Nội',N'QUyền','012345678','Thái Bình','quyen@gmail.com',GETDATE(),1);
 
 go
 go
