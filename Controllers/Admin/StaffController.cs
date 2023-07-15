@@ -75,9 +75,9 @@ public class StaffController : Controller
         return RedirectToAction("Index");
 
     }
-        [Route("Staff/Delete")]
-
-      [HttpPost]
+    
+    [Route("Staff/Delete")]
+    [HttpPost]
     public async Task<IActionResult> Delete(int id)
     {
         try

@@ -9,53 +9,57 @@
             <div class="col-lg-12">
                 <section class="panel">
                     <header class="panel-heading">
-                        Thêm nhân viên
+                        Sửa địa điểm
                     </header>
                     <div class="panel-body">
-                        <form method="post" asp-controller="Staff" asp-area="Admin" asp-action="Update">
-                                <input type="hidden" name="Id" class="form-control" id="exampleInputEmail1"
-                                     value="@Model.Id">
+                        <form method="post" asp-controller="Motel" asp-area="Admin" asp-action="Update">
+                            <input type="hidden" name="Id" class="form-control" id="exampleInputEmail1"
+                                value="@Model.Id">
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Tên nhân viên</label>
-                                <input type="text" name="Name" class="form-control" id="exampleInputEmail1"
-                                    placeholder="Nhập tên" value="@Model.Name">
+                                <label for="exampleInputEmail1">Tên</label>
+                                <input type="text" name="Name" class="form-control" id="exampleInputName"
+                                    placeholder="Tên" value="@Model.Name">
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Email</label>
-                                <input type="email" name="Email" class="form-control" id="exampleInputEmail1"
-                                    placeholder="Nhập email" value="@Model.Email">
+                                <label for="exampleInputEmail1">Tiêu đề</label>
+                                <input type="text" name="Title" class="form-control" id="exampleInputTitle"
+                                    placeholder="Tiêu đề" value="@Model.Title">
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Ngày sinh</label>
-                                <input type="date" name="Birthday" class="form-control" id="exampleInputEmail1"
-                                    placeholder="Nhập Ngày sinh" value="@Model.Birthday.ToString("yyyy-MM-dd")">
+                                <label for="exampleInputEmail1">Diện tích</label>
+                                <input type="float" name="Acreage" class="form-control" id="exampleInputAcreage"
+                                    placeholder="m²" value="@Model.Acreage">
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Số điện thoại</label>
-                                <input type="text" name="Phone" class="form-control" id="exampleInputEmail1"
-                                    placeholder="Nhập số điện thoại" value="@Model.Phone">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Giới tính</label>
-                                <select class="form-control" id="Gender" name="Gender">
-                                    <option value="male" selected="@(Model.Gender == "male" ? "selected" : "")">Nam
-                                    </option>
-                                    <option value="female" selected="@(Model.Gender == "female" ? "selected" : "")">Nữ
-                                    </option>
-                                </select>
+                                <label for="exampleInputEmail1">Giá</label>
+                                <input type="float" name="Price" class="form-control" id="exampleInputPrice"
+                                    placeholder="Giá" value="@Model.Price">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Địa chỉ</label>
-                                <textarea class="form-control " id="Address" name="Address"
-                                    required="">@Model.Address</textarea>
+                                <input type="text" name="Address_post" class="form-control"
+                                    id="exampleInputAddress_post" placeholder="Địa chỉ" value="@Model.Address_post">
                             </div>
-
                             <div class="form-group">
-                                <label for="exampleInputPassword1">Password</label>
-                                <input type="password" name="Password" class="form-control" id="exampleInputPassword1"
-                                    placeholder="Password" value="@Model.Password">
+                                <label for="exampleInputEmail1">Thành phố</label>
+                                <input type="text" name="Address" class="form-control" id="exampleInputAddress"
+                                    placeholder="Thành phố" value="@Model.Address">
                             </div>
-
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Số điện thoại</label>
+                                <input type="number" name="Phone" class="form-control" id="exampleInputAddress"
+                                    placeholder="Liên hệ" value="@Model.Phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" name="Email" class="form-control" id="exampleInputEmail"
+                                    placeholder="Email" value="@Model.Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Mô tả</label>
+                                <input type="text" name="Description" class="form-control" id="exampleInputDescription"
+                                    placeholder="mô tả" value="@Model.Description">
+                            </div>
                             <button type="submit" class="btn btn-info">Submit</button>
                         </form>
 

@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Thêm nhân viên";
+    ViewData["Title"] = "Thêm địa điểm";
     Layout = "~/Views/Shared/Admin/_AdminLayout.cshtml";
 }
 <section id="main-content">
@@ -9,51 +9,61 @@
             <div class="col-lg-12">
                 <section class="panel">
                     <header class="panel-heading">
-                        Thêm nhân viên
+                        Thêm địa điểm
                     </header>
                     <div class="panel-body">
-                        <form method="post" asp-controller="Staff" asp-area="Admin" asp-action="Add">
+                        <form method="post" asp-controller="Motel" asp-area="Admin" asp-action="Add">
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Tên nhân viên</label>
-                                <input type="text" name="Name" class="form-control" id="exampleInputEmail1"
-                                    placeholder="Nhập tên">
+                                <label for="exampleInputEmail1">Tên</label>
+                                <input type="text" name="Name" class="form-control" id="exampleInputName"
+                                    placeholder="Tên">
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Email</label>
-                                <input type="email" name="Email" class="form-control" id="exampleInputEmail1"
-                                    placeholder="Nhập email">
+                                <label for="exampleInputEmail1">Tiêu đề</label>
+                                <input type="text" name="Title" class="form-control" id="exampleInputTitle"
+                                    placeholder="Tiêu đề">
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Ngày sinh</label>
-                                <input type="date" name="Birthday" class="form-control" id="exampleInputEmail1"
-                                    placeholder="Nhập Ngày sinh">
+                                <label for="exampleInputEmail1">Diện tích</label>
+                                <input type="float" name="Acreage" class="form-control" id="exampleInputAcreage"
+                                    placeholder="m²">
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Số điện thoại</label>
-                                <input type="text" name="Phone" class="form-control" id="exampleInputEmail1"
-                                    placeholder="Nhập số điện thoại">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Giới tính</label>
-                                <select class="form-control input-lg m-bot15" name="Gender">
-                                    <option value="male">Nam</option>
-                                    <option value="female">Nữ</option>
-                                </select>
+                                <label for="exampleInputEmail1">Giá</label>
+                                <input type="float" name="Price" class="form-control" id="exampleInputPrice"
+                                    placeholder="Giá">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Địa chỉ</label>
-                                <textarea class="form-control " id="Address" name="Address" required=""></textarea>
+                                <input type="text" name="Address_post" class="form-control"
+                                    id="exampleInputAddress_post" placeholder="Địa chỉ">
                             </div>
-
                             <div class="form-group">
-                                <label for="exampleInputPassword1">Password</label>
-                                <input type="password" name="Password" class="form-control" id="exampleInputPassword1"
-                                    placeholder="Password">
+                                <label for="exampleInputEmail1">Thành phố</label>
+                                <input type="text" name="Address" class="form-control" id="exampleInputAddress"
+                                    placeholder="Thành phố">
                             </div>
-
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Số điện thoại</label>
+                                <input type="number" name="Phone" class="form-control" id="exampleInputAddress"
+                                    placeholder="Liên hệ">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" name="Email" class="form-control" id="exampleInputEmail"
+                                    placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Mô tả</label>
+                                <input type="text" name="Description" class="form-control" id="exampleInputDescription"
+                                    placeholder="mô tả">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Ảnh</label>
+                                <input type="file" name="Image" class="form-control" id="exampleInputImage">
+                            </div>
                             <button type="submit" class="btn btn-info">Submit</button>
                         </form>
-
                     </div>
                 </section>
             </div>
