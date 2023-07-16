@@ -15,6 +15,7 @@ public class MotelController : Controller
     {
         _logger = logger;
         _context = context;
+
         this._hostEnvironment = hostEnvironment;
     }
     [Route("Motel/index")]
@@ -100,33 +101,16 @@ public class MotelController : Controller
         apartment.Email = motel.Email;
         apartment.Phone = motel.Phone;
         apartment.Address = motel.Address;
-
+        
         _context.tblMotel.Update(apartment);
         await _context.SaveChangesAsync();
+        
+
         return RedirectToAction("Index");
 
     }
 
 
 
-    [Route("Motel/Delete")]
-    [HttpPost]
-    public async Task<IActionResult> Delete(int id)
-    {
-        try
-        {
-            Console.WriteLine("Id" + id);
-            var motel = await _context.tblMotel.FindAsync(id);
-            _context.tblMotel.Remove(motel);
-            await _context.SaveChangesAsync();
-            return Content("success");
-        }
-        catch (System.Exception)
-        {
-            return Content("error");
-            throw;
-        }
-
-    }
 
 }
