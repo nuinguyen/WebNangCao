@@ -2,9 +2,19 @@
     ViewData["Title"] = "Đăng nhập";
     Layout = "~/Views/Shared/User/_LoginLayout.cshtml";
 }
- <div class="container">
 
+@* @using (Html.BeginForm("Login", "Singin", FormMethod.Post))
+{
+    if(ViewBag.LoginSatus != null && ViewBag.LoginSatus == 0){
+        <p style="display: none; color: red;">Tài khoản không đúng</p>
+    }
+} *@
+
+ <div class="container">
     <form class="form-signin" method="post" asp-controller="Login" asp-area="User" asp-action="Singin">
+        @* @if(ViewBag.LoginStatus != null && ViewBag.LoginStatus == 0){
+            <p style="display: none; color: red;">Tài khoản không đúng</p>
+        } *@
         <h2 class="form-signin-heading">Đăng nhập ngay bây giờ</h2>
         <div class="login-wrap">
             <input type="text" class="form-control" name="Email" placeholder="Nhập Email" autofocus>

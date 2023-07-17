@@ -20,7 +20,7 @@ $(document).ready(function(){
         }
     })
 
-    //DELETE Motel
+    // DELETE Motel
     $("._delete_motel").click(function(){
         console.log( {id: $(this).data("id")});
         let isDelete = confirm("Bạn có chắc chắn muốn xóa địa điểm này ?");
@@ -36,7 +36,6 @@ $(document).ready(function(){
                     $('#motel'+idTb).remove();
                 } else {
                     alert("Thất bại");
-
                 }
             });
         }

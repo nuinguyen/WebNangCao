@@ -39,7 +39,8 @@
 			</div>
 			<div class="col-md-9">
 
-				<form method="post" asp-area="User" asp-action="Add" asp-controller="Motel" enctype="multipart/form-data">
+				<form method="post" asp-area="User" asp-action="Add" asp-controller="Motel"
+					enctype="multipart/form-data">
 
 					<div id="">
 						<!--Thông tin cơ bản-->
@@ -145,7 +146,7 @@
 								</div>
 								<div class="form-group">
 									<div class="col-sm-12">
-										<label class="control-label" >Mức giá</label>
+										<label class="control-label">Mức giá</label>
 										<input type="text" name="Price" class="form-control typeahead example-countries"
 											placeholder="Nhập giá, VD 12000000">
 									</div>
@@ -163,14 +164,20 @@
 								<div class="form-group">
 									<div class="col-sm-12">
 										<label class="control-label">Hình ảnh</label>
-										<div class="fileinput fileinput-new" style="width: 100%;" data-provides="fileinput">
-							<div class="fileinput-preview thumbnail mb20" data-trigger="fileinput" style="width: 100%; height: 150px;"></div>
-							<div>
-								<a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
-								<span class="btn btn-default btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="Images"></span>
-								
-							</div>
-						</div>
+										<div class="fileinput fileinput-new" style="width: 100%;"
+											data-provides="fileinput">
+											<div class="fileinput-preview thumbnail mb20" data-trigger="fileinput"
+												style="width: 100%; height: 150px;"></div>
+											<div>
+												<a href="#" class="btn btn-default fileinput-exists"
+													data-dismiss="fileinput">Remove</a>
+												<span class="btn btn-default btn-file"><span
+														class="fileinput-new">Select image</span><span
+														class="fileinput-exists">Change</span><input type="file"
+														name="Images"></span>
+
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -200,8 +207,8 @@
 								<div class="form-group">
 									<div class="col-sm-12">
 										<label class="control-label">Địa chỉ</label>
-										<input type="text" name="Address" class="form-control typeahead example-countries"
-											placeholder="Nhập địa chỉ">
+										<input type="text" name="Address"
+											class="form-control typeahead example-countries" placeholder="Nhập địa chỉ">
 									</div>
 								</div>
 								<div class="form-group">
@@ -214,7 +221,7 @@
 							</div>
 						</div>
 						<!--Thông tin liên hệ-->
-                            <button type="submit" class="btn btn-info">Submit</button>
+						<button type="submit" class="btn btn-info">Submit</button>
 
 					</div>
 				</form>

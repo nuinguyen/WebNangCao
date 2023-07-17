@@ -18,6 +18,7 @@ public class MotelController : Controller
 
         this._hostEnvironment = hostEnvironment;
     }
+    
     [Route("Motel/index")]
     public async Task<IActionResult> Index()
     {
@@ -110,7 +111,25 @@ public class MotelController : Controller
 
     }
 
-
+    [Route("Motel/Delete")]
+    [HttpPost]
+    public async Task<IActionResult> Delete(int id)
+    {
+        try
+        {
+            Console.WriteLine("Idd" + id) ;
+            var model = await _context.tblMotel.FindAsync(id);
+            _context.tblMotel.Remove(model);
+            await _context.SaveChangesAsync();
+            return Content("success");
+        }
+        catch (System.Exception)
+        {
+            return Content("error");
+            throw;
+        }
+        
+    }
 
 
 }
