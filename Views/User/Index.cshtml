@@ -19,7 +19,7 @@
 
 
 	<div class="container">
-		<div class="row blog">
+		<div class="row blog" id="motel-favourite">
 			<div class="col-md-9">
 				@foreach (var motel in Model)
 				{
@@ -29,7 +29,12 @@
 								asp-append-version="true" width="300px" height="127px" />
 						</div>
 						<div class="col-md-8">
-							<h2><a href="#">@motel.Title</a></h2>
+							<h2>
+								  <a asp-action="Detail" asp-controller="Motel" asp-area="User"
+                                                asp-route-id="@motel.Id">
+                                                @motel.Title
+                                            </a>
+								</h2>
 							<ul class="list-inline list-unstlyed post-info">
 								<li><i class="fa fa-user"></i>@motel.Price</li>
 								<li><i class="fa fa-clock-o"></i>@(motel.Acreage.ToString() + " m\u00B2")</li>
@@ -65,7 +70,34 @@
 								}
 							</div>
 							<div class="col-md-8">
-								<button type="button" class="pull-right btn btn-default motel-favourite" data-id="@motel.Id">
+								@{
+									string favouriteClass = "";
+									if (@ViewBag.UserId != 0)
+									{
+										Int32 motelId = motel.Id;
+										var context = (dbContext)ViewBag.Context;
+										Int32 id = 0;
+										if ( ViewBag.favourite_id != null)
+										{
+											id = ViewBag.favourite_id;
+
+										}
+
+										var isFavourite = context.tblFavourite_detail
+										.Any(x => x.Motel_id == motelId && x.Favourite_id==id);
+										favouriteClass = isFavourite ? "active" : "";
+									}
+									else
+									{
+										favouriteClass = "";
+									}
+
+
+
+								}
+
+								<button type="button" class="pull-right btn btn-default motel-favourite @favouriteClass"
+									data-id="@motel.Id">
 									<i class="fa fa-heart"> </i>
 								</button>
 
@@ -94,6 +126,29 @@
 
 				<div class="panel panel-default">
 					<form method="post" asp-controller="Motel" asp-action="Search">
+						<div>
+							<div style="margin-top: 3px;">
+								<span style="margin: auto;" class="input-group-text" id="inputGroup-sizing-sm">Địa chỉ
+								</span>
+								<input type="text" class="form-control" placeholder="Địa chỉ" aria-label="Username"
+									aria-describedby="addon-wrapping" id="Address" name="Address" value="">
+							</div>
+						</div>
+						<div style="margin-top: 3px;">
+							<span style="margin: auto;" class="input-group-text" id="inputGroup-sizing-sm">Giá thấp
+								nhất</span>
+							<input s type="text" class="form-control" placeholder="Nhập giá thấp nhất"
+								aria-label="Username" aria-describedby="addon-wrapping" id="min" name="min" value="">
+						</div>
+						<div style="margin-top: 3px;">
+							<span style="margin: auto;" class="input-group-text" id="inputGroup-sizing-sm">Giá cao
+								nhất</span>
+							<input type="text" class="form-control" placeholder="Nhập giá cao nhất"
+								aria-label="Username" aria-describedby="addon-wrapping" id="max" name="max" value="">
+						</div>
+						<div style="margin-top: 3px; display: flex; justify-content: center; ">
+							<input type="submit" class="btn btn-outline-dark" value="Search" />
+						</div>
 						<div >						 
 							<div style="margin-top: 3px;" >
 								<span style="margin: auto;" class="input-group-text" id="inputGroup-sizing-sm">Địa chỉ </span>
@@ -174,29 +229,29 @@
 								</span>
 							</div>
 							<div class="media">
-								
+
 								<span>
 									<a asp-action="Filter" asp-controller="Motel" asp-area="User"
 										asp-route-acreage="50">
 										30 - 50 m&sup2 </a>
-									
-									</span>
+
+								</span>
 							</div>
 							<div class="media">
 								<span>
 									<a asp-action="Filter" asp-controller="Motel" asp-area="User"
 										asp-route-acreage="80">
 										50 - 80 m&sup2 </a>
-									
-									</span>
+
+								</span>
 							</div>
 							<div class="media">
 								<span>
 									<a asp-action="Filter" asp-controller="Motel" asp-area="User"
 										asp-route-acreage="100">
 										80 - 100 m&sup2 </a>
-									
-									</span>
+
+								</span>
 							</div>
 
 
