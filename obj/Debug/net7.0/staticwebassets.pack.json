@@ -2045,6 +2045,10 @@
       "PackagePath": "staticwebassets\\css\\Admin\\yamm.css"
     },
     {
+      "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\css\\User\\style.css",
+      "PackagePath": "staticwebassets\\css\\User\\style.css"
+    },
+    {
       "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\css\\img\\nav-expand.png",
       "PackagePath": "staticwebassets\\css\\img\\nav-expand.png"
     },

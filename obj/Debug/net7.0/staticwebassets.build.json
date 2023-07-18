@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3TucySLZA/mYBolQ+xoRzrHV+45BisK3dBSxH71rj68=",
+  "Hash": "9krU2DtOymt/dsdimsDtXYoWqrHiOheveA56NuxslIs=",
   "Source": "BTL",
   "BasePath": "_content/BTL",
   "Mode": "Default",
@@ -8719,6 +8719,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\BTL\\WebNangCao-1\\wwwroot\\css\\User\\style.css",
+      "SourceId": "BTL",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BTL\\WebNangCao-1\\wwwroot\\",
+      "BasePath": "_content/BTL",
+      "RelativePath": "css/User/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\User\\style.css"
     },
     {
       "Identity": "D:\\BTL\\WebNangCao-1\\wwwroot\\favicon.ico",

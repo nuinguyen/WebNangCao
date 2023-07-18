@@ -62,7 +62,10 @@ VALUES (N'Núi','nui@gmail.com', '0192828282', '54321'),
         (N'Quyền','quyen@gmail.com', '0322212212', '54321'),
        (N'Mạnh','manh@gmail.com', '0201011121', '54321');
 go
+select * from tblUser
+
 go
+
 
 CREATE TABLE tblFavourite (
     Id INT IDENTITY(1,1) PRIMARY KEY,
@@ -81,3 +84,5 @@ CREATE TABLE tblFavourite_detail (
 go
 select * from tblFavourite_detail
 go
+delete from tblFavourite
+where Id=4;

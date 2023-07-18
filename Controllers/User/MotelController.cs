@@ -122,6 +122,27 @@ public class MotelController : Controller
         return RedirectToAction("Index", "Home");
 
     }
+    [Route("Motel/Detail")]
+    public async Task<IActionResult> Detail(int id)
+    {
+        if (id != null)
+        {
+            var motel = await _context.tblMotel.FindAsync(id);
+            var list = await _context.tblMotel.Take(3).ToListAsync();
+
+            var viewModel = new MotelViewModel
+            {
+                Motel = motel,
+                ListMotel = list
+            };
+
+            return View("~/Views/User/Detail.cshtml", viewModel);
+        }
+        else
+        {
+            return NotFound();
+        }
+    }
 
 
 

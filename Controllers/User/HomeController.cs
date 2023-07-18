@@ -24,11 +24,12 @@ public class HomeController : Controller
         ViewBag.UserId = userId;
         ViewBag.UserName = userName;
         //đếm yêu thích
-        var iss = await _context.tblFavourite.FindAsync(userId);
+        var iss = await _context.tblFavourite.Where(m => m.User_id == userId).FirstOrDefaultAsync();
         if (iss != null)
         {
             int count = await _context.tblFavourite_detail.Where(m => m.Favourite_id == iss.Id).CountAsync();
             ViewBag.count = count;
+            ViewBag.favourite_id = iss.Id;
         }
         else
         {
@@ -36,7 +37,8 @@ public class HomeController : Controller
         }
 
 
-        var motel = await _context.tblMotel.ToListAsync();
+        var motel = await _context.tblMotel.OrderByDescending(m => m.Date_created).ToListAsync();
+        ViewBag.Context = _context;
 
         return View("~/Views/User/Index.cshtml", motel);
     }
@@ -52,11 +54,11 @@ public class HomeController : Controller
 
     [Route("Home/Favourite")]
     [HttpPost]
-    public async Task<IActionResult> Favourite(int id)
+    public async Task<IActionResult> Favourite(int id, int status)
     {
         if (id != null)
         {
-            var iss = await _context.tblFavourite.FindAsync(HttpContext.Session.GetInt32("UserId"));
+            var iss = await _context.tblFavourite.Where(m => m.User_id == HttpContext.Session.GetInt32("UserId")).FirstOrDefaultAsync();
             if (iss == null)
             {
                 Favorite favorite = new Favorite();
@@ -75,14 +77,26 @@ public class HomeController : Controller
             }
             else
             {
+                if (status == 1)
+                {
+                    Favourite_detail favourite_Detail = new Favourite_detail();
+                    favourite_Detail.Favourite_id = iss.Id;
+                    favourite_Detail.Motel_id = id;
+                    _context.tblFavourite_detail.Add(favourite_Detail);
+                    await _context.SaveChangesAsync();
+                    int count = await _context.tblFavourite_detail.Where(m => m.Favourite_id == iss.Id ).CountAsync();
+                    return Json(new { status = "success", count = count });
+                }
+                else
+                {
+                    var detail = await _context.tblFavourite_detail.Where(m => m.Motel_id == id  && m.Favourite_id==iss.Id).FirstOrDefaultAsync();
+                    _context.tblFavourite_detail.Remove(detail);
+                    await _context.SaveChangesAsync();
+                    int count = await _context.tblFavourite_detail.Where(m => m.Favourite_id == iss.Id).CountAsync();
+                    return Json(new { status = "success", count = count });
+                }
 
-                Favourite_detail favourite_Detail = new Favourite_detail();
-                favourite_Detail.Favourite_id = iss.Id;
-                favourite_Detail.Motel_id = id;
-                _context.tblFavourite_detail.Add(favourite_Detail);
-                await _context.SaveChangesAsync();
-                int count = await _context.tblFavourite_detail.Where(m => m.Favourite_id == iss.Id).CountAsync();
-                return Json(new { status = "success", count = count });
+
 
             }
         }

@@ -2,10 +2,21 @@
     ViewData["Title"] = "Đăng nhập";
     Layout = "~/Views/Shared/User/_LoginLayout.cshtml";
 }
- <div class="container">
-
+<div class="container">
     <form class="form-signin" method="post" asp-controller="Login" asp-area="User" asp-action="Singin">
         <h2 class="form-signin-heading">Đăng nhập ngay bây giờ</h2>
+        <div class="row">
+            <div class="col-md-12">
+                @if (TempData["SuccessMessage"] != null)
+                {
+                    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+                }
+                @if (TempData["ErrorMessage"] != null)
+                {
+                    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+                }
+            </div>
+        </div>
         <div class="login-wrap">
             <input type="text" class="form-control" name="Email" placeholder="Nhập Email" autofocus>
             <input type="password" class="form-control" name="Password" placeholder="Nhập mật khẩu">
@@ -20,14 +31,13 @@
 
             <div class="registration">
                 Bạn có tài khoản chưa
-                <a class="" href="registration.html">
-                    Tạo tài khoản
-                </a>
+                <a asp-area="User" asp-controller="Login" asp-action="Register">Tạo tài khoản</a>
+
             </div>
 
-        </div>  
+        </div>
 
-      </form>
+    </form>
 
-    </div>
+</div>
 

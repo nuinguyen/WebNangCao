@@ -1,0 +1,7 @@
+
+button.pull-right.btn.btn-default.motel-favourite {
+    color: #5f7676;
+}
+button.pull-right.btn.btn-default.motel-favourite.active {
+    color: red;
+}
