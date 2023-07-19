@@ -41,25 +41,4 @@ $(document).ready(function(){
         }
     })
 
-    //  DELETE KHU VỰC
-     $("._delete_location").click(function(){
-        console.log( {id: $(this).data("id")});
-        let isDelete = confirm("Are you sure delete motel");
-        let idTb = $(this).data("id");
-        if(isDelete) {
-            $.ajax({
-                url: "Delete",
-                type: "POST",
-                data: {id: $(this).data("id")}
-            }).done(function(response) {
-                if(response=="success") {
-                    alert("Thành công");
-                    $('#location'+idTb).remove();
-                } else {
-                    alert("Thất bại");
-
-                }
-            });
-        }
-    })
 })

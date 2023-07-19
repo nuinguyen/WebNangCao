@@ -22,6 +22,26 @@ public class MotelController : Controller
     }
     public async Task<IActionResult> Search(string Address, int min, int max)
     {
+        int userId = HttpContext.Session.GetInt32("UserId") ?? 0;
+        string userName = HttpContext.Session.GetString("UserName") ?? "";
+        ViewBag.UserId = userId;
+        ViewBag.UserName = userName;
+        //đếm yêu thích
+        var iss = await _context.tblFavourite.Where(m => m.User_id == userId).FirstOrDefaultAsync();
+        if (iss != null)
+        {
+            int count = await _context.tblFavourite_detail.Where(m => m.Favourite_id == iss.Id).CountAsync();
+            ViewBag.count = count;
+            ViewBag.favourite_id = iss.Id;
+        }
+        else
+        {
+            ViewBag.count = 0;
+        }
+
+
+        ViewBag.Context = _context;
+
         var n = Address;
         var result = await _context.searchMotel.FromSqlRaw("EXEC searchMotel @Address_search, @min_price_search, @max_price_search",
         new SqlParameter("@Address_search", !string.IsNullOrEmpty(n) ? n : ""),
@@ -32,6 +52,27 @@ public class MotelController : Controller
     [Route("/Motel/Filter")]
     public async Task<IActionResult> Filter(float? price, float? acreage)
     {
+
+        int userId = HttpContext.Session.GetInt32("UserId") ?? 0;
+        string userName = HttpContext.Session.GetString("UserName") ?? "";
+        ViewBag.UserId = userId;
+        ViewBag.UserName = userName;
+        //đếm yêu thích
+        var iss = await _context.tblFavourite.Where(m => m.User_id == userId).FirstOrDefaultAsync();
+        if (iss != null)
+        {
+            int count = await _context.tblFavourite_detail.Where(m => m.Favourite_id == iss.Id).CountAsync();
+            ViewBag.count = count;
+            ViewBag.favourite_id = iss.Id;
+        }
+        else
+        {
+            ViewBag.count = 0;
+        }
+
+
+        ViewBag.Context = _context;
+
         var motels = await _context.tblMotel.ToListAsync();
 
         if (price.HasValue)

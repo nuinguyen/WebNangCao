@@ -47,7 +47,7 @@ public class MotelController : Controller
     }
 
 
-    [Route("Motel/Add")]
+    [Route("Admin/Motel/Add")]
     [HttpPost]
     public async Task<IActionResult> Add(Motel motel)
     {
