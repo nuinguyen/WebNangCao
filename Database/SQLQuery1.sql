@@ -84,5 +84,44 @@ CREATE TABLE tblFavourite_detail (
 go
 select * from tblFavourite_detail
 go
-delete from tblFavourite
-where Id=4;
+
+CREATE TABLE tblCity(
+    ID INT IDENTITY(1,1) PRIMARY KEY,
+    Name  nvarchar(200),
+);
+go
+CREATE TABLE tblDistrict(
+    ID INT IDENTITY(1,1) PRIMARY KEY,
+    Name  nvarchar(200),
+    City_id int,
+);
+go
+INSERT INTO tblDistrict (Name, City_id)
+VALUES (N'Hai Bà Trưng',1),
+        (N'Cầu Giấy',1),
+        (N'Hoàng Mai',1),
+        (N'Thanh Xuân',1),
+        (N'Quận 1',2),
+        (N'Quận 2',2),
+        (N'Quận 3',2),
+        (N'Hội An',3),
+       (N'Xuân Thủy',3);
+go
+select * from tblDistrict
+go
+CREATE TABLE tblVillage(
+    ID INT IDENTITY(1,1) PRIMARY KEY,
+    Name  nvarchar(200),
+	District_id int,
+);
+go
+INSERT INTO tblVillage (Name, District_id)
+VALUES (N'Định Công',1),
+        (N'Giải Phóng',1),
+        (N'HOàng Diệu',1),
+        (N'Thanh Xuân',1),
+        (N'Quang Trung',5),
+        (N'Phú Trọng',5),
+        (N'Ngô Quyền',6),
+       (N'La Thăng',9);
+go

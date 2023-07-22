@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9krU2DtOymt/dsdimsDtXYoWqrHiOheveA56NuxslIs=",
+  "Hash": "AAvyx4TtNmSgvpxMrnJm6KpwbU9AY2fZt9pCiyr1Tns=",
   "Source": "BTL",
   "BasePath": "_content/BTL",
   "Mode": "Default",
@@ -8772,6 +8772,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\1\\2022-06-03.png"
     },
     {
+      "Identity": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\2\\54696-scaled.jpg",
+      "SourceId": "BTL",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BTL\\WebNangCao-1\\wwwroot\\",
+      "BasePath": "_content/BTL",
+      "RelativePath": "Images/2/54696-scaled.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\2\\54696-scaled.jpg"
+    },
+    {
       "Identity": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\3\\2022-01-06.png",
       "SourceId": "BTL",
       "SourceType": "Discovered",
@@ -8804,6 +8821,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\4\\54696-scaled.jpg"
+    },
+    {
+      "Identity": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\5\\323558.webp",
+      "SourceId": "BTL",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BTL\\WebNangCao-1\\wwwroot\\",
+      "BasePath": "_content/BTL",
+      "RelativePath": "Images/5/323558.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\5\\323558.webp"
     },
     {
       "Identity": "D:\\BTL\\WebNangCao-1\\wwwroot\\img\\404_icon.png",

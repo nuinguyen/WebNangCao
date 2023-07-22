@@ -9,12 +9,20 @@
       "PackagePath": "staticwebassets\\Images\\1\\2022-06-03.png"
     },
     {
+      "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\2\\54696-scaled.jpg",
+      "PackagePath": "staticwebassets\\Images\\2\\54696-scaled.jpg"
+    },
+    {
       "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\3\\2022-01-06.png",
       "PackagePath": "staticwebassets\\Images\\3\\2022-01-06.png"
     },
     {
       "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\4\\54696-scaled.jpg",
       "PackagePath": "staticwebassets\\Images\\4\\54696-scaled.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\5\\323558.webp",
+      "PackagePath": "staticwebassets\\Images\\5\\323558.webp"
     },
     {
       "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\assets\\advanced-datatable\\media\\css\\demo_page.css",

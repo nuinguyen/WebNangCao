@@ -35,6 +35,8 @@ public class LoginController : Controller
 
             HttpContext.Session.SetInt32("UserId", member.Id);
             HttpContext.Session.SetString("UserName", member.Name);
+            HttpContext.Session.SetString("UserPhone", member.Phone);
+            HttpContext.Session.SetString("UserEmail", member.Email);
             TempData["SuccessMessage"] = "Đăng nhập thành công";//Thông báo ra màn hình thánh công
             return RedirectToAction("Index", "Home");
 
@@ -71,6 +73,15 @@ public class LoginController : Controller
 
         return RedirectToAction("Index");
     }
-
+    [Route("/Login/Logout")]
+    public IActionResult Logout()
+    {
+        HttpContext.Session.Remove("UserId");
+        HttpContext.Session.Remove("UserName");
+        HttpContext.Session.Remove("UserPhone");
+        HttpContext.Session.Remove("UserEmail");
+        // HttpContext.Session.Clear();
+        return RedirectToAction("Index");
+    }
 
 }

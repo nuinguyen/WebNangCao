@@ -23,15 +23,21 @@
 				<div class="sidebar mb40">
 					<nav role="navigation" class="widget-body">
 						<ul class="acc-menu">
-							<li><a href="layout-grids.html"><i class="fa fa-user"></i><span>
-										@ViewBag.UserName</span></a></li>
-
-							<li><a href="javascript:;"><i class="fa fa-table"></i><span>Đăng mới</span></a>
+							<li>
+								<a href="layout-grids.html"><i class="fa fa-user"></i><span>
+										@ViewBag.UserName</span></a>
+										</li>
+							<li>
+								<a href="javascript:;"><i class="fa fa-table"></i><span>Đăng mới</span></a>
 
 							</li>
-							<li><a href="javascript:;"><i class="fa fa-bar-chart-o"></i><span>Danh sách tin</span></a>
+							<li>
+								<a asp-action="ListPost" asp-controller="Motel" asp-area="User">
+									<i class="fa fa-bar-chart-o"></i><span>Danh sách tin</span>
+								</a>
 							</li>
-							<li><a href="javascript:;"><i class="fa fa-map-marker"></i><span>Nháp</span></a>
+							<li>
+								<a href="javascript:;"><i class="fa fa-map-marker"></i><span>Nháp</span></a>
 							</li>
 						</ul>
 					</nav>
@@ -52,7 +58,8 @@
 								<div class="form-group">
 									<div class="col-sm-12">
 										<label class="control-label">Tỉnh, thành phố</label>
-										<select class="form-control" id="source">
+										<select class="form-control" id="city">
+											<option value="">-- Chọn Tỉnh, thành phố --</option>
 											<option value="1">Hà Nội</option>
 											<option value="2">Hồ Chí Minh</option>
 											<option value="3">Đà Nẵng</option>
@@ -63,10 +70,8 @@
 								<div class="form-group">
 									<div class="col-sm-12">
 										<label class="control-label">Quận, huyện</label>
-										<select class="form-control" id="source">
-											<option value="NJ">Đông Anh</option>
-											<option value="NY">Mê Linh</option>
-											<option value="NC">Hai Bà Trưng</option>
+										<select class="form-control" id="district">
+								
 										</select>
 									</div>
 								</div>
@@ -74,27 +79,16 @@
 								<div class="form-group">
 									<div class="col-sm-12">
 										<label class="control-label">Phường, xã</label>
-										<select class="form-control" id="source">
-											<option value="NJ">ĐỊnh Công</option>
-											<option value="NY">Trung Kính</option>
-											<option value="NC">Yên Hòa</option>
+										<select class="form-control" id="village">
+											
 										</select>
 									</div>
 								</div>
-								<div class="form-group">
-									<div class="col-sm-12">
-										<label class="control-label">Đường, phố</label>
-										<select class="form-control" id="source">
-											<option value="NJ">Lê Trọng Tấn</option>
-											<option value="NY">Quang Trung</option>
-											<option value="NC">Kim Đồng</option>
-										</select>
-									</div>
-								</div>
+								
 								<div class="form-group">
 									<div class="col-sm-12">
 										<label class=" control-label">Địa chỉ hiển thị trên tin đăng</label>
-										<textarea class="form-control" name="Address_post"></textarea>
+										<textarea class="form-control" name="Address_post" id="Address_post"></textarea>
 									</div>
 								</div>
 							</div>
@@ -186,28 +180,28 @@
 								<div class="form-group">
 									<div class="col-sm-12">
 										<label class="control-label">Tên liên hệ</label>
-										<input type="text" name="Name" class="form-control typeahead example-countries"
+										<input type="text" name="Name" value="@ViewBag.userName" class="form-control typeahead example-countries"
 											placeholder="Nhập tên">
 									</div>
 								</div>
 								<div class="form-group">
 									<div class="col-sm-12">
 										<label class="control-label">Số điện thoại</label>
-										<input type="text" name="Phone" class="form-control typeahead example-countries"
+										<input type="text" name="Phone" value="@ViewBag.userPhone" class="form-control typeahead example-countries"
 											placeholder="Nhập SĐT">
 									</div>
 								</div>
 								<div class="form-group">
 									<div class="col-sm-12">
 										<label class="control-label">Địa chỉ</label>
-										<input type="text" name="Address" class="form-control typeahead example-countries"
+										<input type="text" name="Address"  class="form-control typeahead example-countries"
 											placeholder="Nhập địa chỉ">
 									</div>
 								</div>
 								<div class="form-group">
 									<div class="col-sm-12">
 										<label class="control-label">Email</label>
-										<input type="text" name="Email" class="form-control typeahead example-countries"
+										<input type="text" name="Email" value="@ViewBag.userEmail" class="form-control typeahead example-countries"
 											placeholder="Nhập Email">
 									</div>
 								</div>

@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
 
 <!-- Mirrored from avalon.redteamux.com/frontend/blog-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Oct 2014 08:05:10 GMT -->
@@ -89,7 +90,7 @@
 					@if (@ViewBag.UserId != 0)
 					{
 						<li>
-							<a href="#" class="hasnotifications dropdown-toggle" data-toggle="dropdown">
+							<a asp-action="List_Favourite" asp-controller="Motel" asp-area="User" >
 								<span class="icon-bg">
 									<i class="fa fa-heart"></i>
 								</span><span class="badge badge-alizarin badge-favourite">@ViewBag.count</span>
@@ -97,11 +98,13 @@
 						</li>
 						<li><a href="#"> @ViewBag.UserName</a></li>
 						<li><a asp-area="User" asp-controller="Home" asp-action="Post">Đăng tin</a></li>
+						<li><a asp-area="User" asp-controller="Login" asp-action="Logout">Đăng xuất</a></li>
 					}
 					else
 					{
 						<li><a asp-area="User" asp-controller="Login" asp-action="Index">Đăng nhập</a></li>
 						<li><a asp-area="User" asp-controller="Login" asp-action="Register">Đăng ký</a></li>
+
 					}
 
 
@@ -127,7 +130,7 @@
 							<div class="navbar-right yamm">
 								<ul class="nav navbar-nav smart-menu dd-menu">
 									<li><a href="/">Home<span class="subline">Welcome Home</span></a></li>
-								
+
 									<li>
 										<a href="javascript:;">
 											Khu Vực

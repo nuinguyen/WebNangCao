@@ -5,7 +5,8 @@
 <div class="page-content">
 	<div class="page-heading">
 		<div class="container clearfix">
-			<h1 class="pull-left">Cho thuê nhà trọ, phòng trọ</h1>
+			<h1 class="">Tin đã đăng</h1>
+			<span>Tổng sô @ViewBag.count_post tin đăng</span>
 
 			<ol class="breadcrumb pull-right">
 
@@ -21,6 +22,22 @@
 	<div class="container">
 		<div class="row blog" id="motel-favourite">
 			<div class="col-md-9">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="form-group pull-right">
+							<div class="col-sm-12">
+								<form method="post" asp-controller="Motel" asp-action="Arrange">
+									<select class="form-control" id="source" name="value">
+										<option value="">Sắp xếp</option>
+										<option value="increase_price">Sắp xếp tăng tiền</option>
+										<option value="discount_price">Sắp xếp giảm tiền</option>
+									</select>
+									<button type="submit" class="btn btn-info">Submit</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
 				@foreach (var motel in Model)
 				{
 					<div class="blog-post-list row">
@@ -90,18 +107,25 @@
 									{
 										favouriteClass = "";
 									}
-
-
-
 								}
 
 								<button type="button" class="pull-right btn btn-default motel-favourite @favouriteClass"
 									data-id="@motel.Id">
 									<i class="fa fa-heart"> </i>
 								</button>
-
 								<button type="button" class="btn btn-primary pull-right" data-toggle="button"> <i
-										class="fa fa-phone"></i> @motel.Phone</button>
+										class="fa fa-phone"></i> @motel.Phone
+								</button>
+								<div class="input-group-btn ">
+									<button type="button" class="btn btn-info">Trạng thái</button>
+									<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown"><i
+											class="fa fa-angle-down"></i></button>
+									<ul class="dropdown-menu pull-left Motel-status">
+										<li class="update-motel-status" data-id="@motel.Id" data-status="1"><a href="#">Đăng tin</a></li>
+										<li  class="update-motel-status" data-id="@motel.Id" data-status="2"><a href="#">Đã thuê</a></li>
+										<li  class="update-motel-status" data-id="@motel.Id" data-status="3"><a href="#">Nháp</a></li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -112,15 +136,11 @@
 				<div class="clearfix">
 					<ul class="pagination mt0 mb20 pull-right">
 						<li class="disabled"><a href="#"><i class="fa fa-angle-left"></i></a></li>
-
-						@for (int i = 1; i <= ViewBag.TotalPages; i++)
-						{
-							<li class="@(ViewBag.page == i ? "active" : "")">
-								<a asp-action="Index" asp-controller="Home" asp-area="User" asp-route-page="@i">
-									@i
-								</a>
-							</li>
-						}
+						<li class="active"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
 						<li><a href="#"><i class="fa fa-angle-right"></i></a></li>
 					</ul>
 				</div>

@@ -20,6 +20,9 @@ public partial class dbContext : DbContext
     public DbSet<Users> tblUser { get; set; }
     public DbSet<Favorite> tblFavourite { get; set; }
     public DbSet<Favourite_detail> tblFavourite_detail { get; set; }
+    public DbSet<City> tblCity { get; set; }
+    public DbSet<District> tblDistrict { get; set; }
+    public DbSet<Village> tblVillage { get; set; }
 
 
 

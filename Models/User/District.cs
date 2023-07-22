@@ -4,13 +4,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BTL.Models;
 
-public class Favourite_detail
+public class District
 {
     [Key]
     public int Id { get; set; }
-    public int Favourite_id { get; set; }
-    public int Motel_id { get; set; }
- 
-    // public Motel ? Motel { get; set; }
+    
+    public string ? Name { get; set; }
+    public int ? City_id { get; set; }
 
 }
