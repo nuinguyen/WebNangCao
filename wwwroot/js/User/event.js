@@ -158,4 +158,74 @@ $(document).ready(function () {
       }
     });
   });
+
+///////////////
+document.querySelectorAll('.update-motel-status').forEach(function(element) {
+  element.addEventListener('click', function() {
+    var id = element.getAttribute('data-id');
+    var status = element.getAttribute('data-status');
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', 'UpdateStatus');
+    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xhr.onload = function() {
+      if (xhr.status === 200) {
+        if (xhr.responseText === 'success') {
+          alert('Thành công');
+        } else {
+          alert('Thất bại');
+        }
+      } else {
+        console.error('Error:', xhr.statusText);
+      }
+    };
+    xhr.onerror = function() {
+      console.error('Error:', xhr.statusText);
+    };
+    xhr.send('id=' + encodeURIComponent(id) + '&status=' + encodeURIComponent(status));
+  });
+});
+
+////////////////
+// document.querySelectorAll('.update-motel-status').forEach(function(element) {
+//   element.addEventListener('click', function() {
+//     var id = element.getAttribute('data-id');
+//     var status = element.getAttribute('data-status');
+//     fetch('UpdateStatus', {
+//       method: 'POST',
+//       headers: {
+//         'Content-Type': 'application/x-www-form-urlencoded'
+//       },
+//       body: 'id=' + encodeURIComponent(id) + '&status=' + encodeURIComponent(status)
+//     }).then(function(response) {
+//       if (response.ok) {
+//         return response.text();
+//       } else {
+//         console.error('Error:', response.statusText);
+//       }
+//     }).then(function(responseText) {
+//       if (responseText === 'success') {
+//         alert('Thành công');
+//       } else {
+//         alert('Thất bại');
+//       }
+//     }).catch(function(error) {
+//       console.error('Error:', error);
+//     });
+//   });
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 })

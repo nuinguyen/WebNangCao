@@ -5,24 +5,44 @@
       "PackagePath": "staticwebassets\\BTL.bundle.scp.css"
     },
     {
-      "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\1\\2022-06-03.png",
-      "PackagePath": "staticwebassets\\Images\\1\\2022-06-03.png"
+      "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\11\\2022-06-03.png",
+      "PackagePath": "staticwebassets\\Images\\11\\2022-06-03.png"
     },
     {
-      "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\2\\54696-scaled.jpg",
-      "PackagePath": "staticwebassets\\Images\\2\\54696-scaled.jpg"
+      "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\11\\uecuhb.jpg",
+      "PackagePath": "staticwebassets\\Images\\11\\uecuhb.jpg"
     },
     {
-      "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\3\\2022-01-06.png",
-      "PackagePath": "staticwebassets\\Images\\3\\2022-01-06.png"
+      "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\12\\54696-scaled.jpg",
+      "PackagePath": "staticwebassets\\Images\\12\\54696-scaled.jpg"
     },
     {
-      "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\4\\54696-scaled.jpg",
-      "PackagePath": "staticwebassets\\Images\\4\\54696-scaled.jpg"
+      "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\12\\phongtrochothue0001.jpg",
+      "PackagePath": "staticwebassets\\Images\\12\\phongtrochothue0001.jpg"
     },
     {
-      "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\5\\323558.webp",
-      "PackagePath": "staticwebassets\\Images\\5\\323558.webp"
+      "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\13\\2022-01-06.png",
+      "PackagePath": "staticwebassets\\Images\\13\\2022-01-06.png"
+    },
+    {
+      "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\13\\phong-tro-cho-thue.jpg",
+      "PackagePath": "staticwebassets\\Images\\13\\phong-tro-cho-thue.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\14\\54696-scaled.jpg",
+      "PackagePath": "staticwebassets\\Images\\14\\54696-scaled.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\14\\nha-tro-1.jpg",
+      "PackagePath": "staticwebassets\\Images\\14\\nha-tro-1.jpg"
+    },
+    {
+      "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\15\\323558.webp",
+      "PackagePath": "staticwebassets\\Images\\15\\323558.webp"
+    },
+    {
+      "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\Images\\15\\xay-phong-tro-gia-bao-nhieu-3.jpg",
+      "PackagePath": "staticwebassets\\Images\\15\\xay-phong-tro-gia-bao-nhieu-3.jpg"
     },
     {
       "Id": "D:\\BTL\\WebNangCao-1\\wwwroot\\assets\\advanced-datatable\\media\\css\\demo_page.css",

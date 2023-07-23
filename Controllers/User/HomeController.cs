@@ -41,7 +41,7 @@ public class HomeController : Controller
         int pageSize = 3;
         int pageNumber = page ?? 1;
         //end
-        var motel = await _context.tblMotel.OrderByDescending(m => m.Date_created)
+        var motel = await _context.tblMotel.OrderBy(m => m.Date_created)
            .OrderBy(m => m.Date_created)//page
             .Skip((pageNumber - 1) * pageSize)//page
             .Take(pageSize)//page

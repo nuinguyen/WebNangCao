@@ -128,31 +128,6 @@
 			<div class="col-md-3">
 
 				<div class="panel panel-default">
-					<form method="post" asp-controller="Motel" asp-action="Search">
-						<div>
-							<div style="margin-top: 3px;">
-								<span style="margin: auto;" class="input-group-text" id="inputGroup-sizing-sm">Địa chỉ
-								</span>
-								<input type="text" class="form-control" placeholder="Địa chỉ" aria-label="Username"
-									aria-describedby="addon-wrapping" id="Address" name="Address" value="">
-							</div>
-						</div>
-						<div style="margin-top: 3px;">
-							<span style="margin: auto;" class="input-group-text" id="inputGroup-sizing-sm">Giá thấp
-								nhất</span>
-							<input s type="text" class="form-control" placeholder="Nhập giá thấp nhất"
-								aria-label="Username" aria-describedby="addon-wrapping" id="min" name="min" value="">
-						</div>
-						<div style="margin-top: 3px;">
-							<span style="margin: auto;" class="input-group-text" id="inputGroup-sizing-sm">Giá cao
-								nhất</span>
-							<input type="text" class="form-control" placeholder="Nhập giá cao nhất"
-								aria-label="Username" aria-describedby="addon-wrapping" id="max" name="max" value="">
-						</div>
-						<div style="margin-top: 3px; display: flex; justify-content: center; ">
-							<input type="submit" class="btn btn-outline-dark" value="Search" />
-						</div>
-					</form>
 					<div class="panel-heading">
 						<h2>Lọc theo khoảng giá</h2>
 					</div>
@@ -245,6 +220,51 @@
 
 					</div>
 				</div>
+
+
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2>Tìm kiếm</h2>
+					</div>
+					<div class="panel-body panel-no-padding">
+
+						<div class="blog-post-list col-md-12">
+							<form method="post" asp-controller="Motel" asp-action="Search">
+								<div>
+									<div style="margin-top: 3px;">
+										<span style="margin: auto;" class="input-group-text"
+											id="inputGroup-sizing-sm">Địa chỉ
+										</span>
+										<input type="text" class="form-control" placeholder="Địa chỉ"
+											aria-label="Username" aria-describedby="addon-wrapping" id="Address"
+											name="Address" value="">
+									</div>
+								</div>
+								<div style="margin-top: 3px;">
+									<span style="margin: auto;" class="input-group-text" id="inputGroup-sizing-sm">Giá
+										thấp
+										nhất</span>
+									<input s type="text" class="form-control" placeholder="Nhập giá thấp nhất"
+										aria-label="Username" aria-describedby="addon-wrapping" id="min" name="min"
+										value="">
+								</div>
+								<div style="margin-top: 3px;">
+									<span style="margin: auto;" class="input-group-text" id="inputGroup-sizing-sm">Giá
+										cao
+										nhất</span>
+									<input type="text" class="form-control" placeholder="Nhập giá cao nhất"
+										aria-label="Username" aria-describedby="addon-wrapping" id="max" name="max"
+										value="">
+								</div>
+								<div style="margin-top: 3px; display: flex; justify-content: center; ">
+									<input type="submit" class="btn btn-outline-dark" value="Search" />
+								</div>
+							</form>
+						</div>
+
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>

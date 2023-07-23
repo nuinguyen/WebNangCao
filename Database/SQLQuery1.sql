@@ -40,10 +40,13 @@ CREATE TABLE tblMotel (
     Status int,
 );
 go
+delete from tblMotel
 INSERT INTO tblMotel (User_id,Title, Description, Acreage, Price, Image, Address_post, Name,Phone,Address,Email,Date_created,status )
-VALUES (1,N'Phòng mới xây đẹp', N'Đẹp', 20, 1500000, 'image', N'69 ĐỊnh Công Hà Nội',N'Mạnh','098899876','Nam ĐỊnh','manh@gmail.com',GETDATE(),1),
-       (2,N'Phòng Chính chủ', N'Đẹp', 35, 1400000, 'image', N'Hoàng Mai Hà Nội',N'QUyền','012345678','Thái Bình','quyen@gmail.com',GETDATE(),1);
-
+VALUES (1,N'Phòng mới xây đẹp', N'Việc phòng trống hay đầy khách thuê, chủ khu trọ không cần biết, mà cứ tổng số phòng nhân với số tiền trung bình của mỗi phòng, ví dụ là 1,5 triệu đồng, nghĩa là người nhận bao thầu phải trả cho chủ tổng 45 triệu đồng.', 20, 1500000, 'uecuhb.jpg', N'ĐỐng Đa',N'Núi','098899876','Nam ĐỊnh','nui@gmail.com',GETDATE(),1),
+       (2,N'Phòng Chính chủ', N'Đẹp', 35, 1400000, 'phongtrochothue0001.jpg', N'Định CÔng Hà Nội',N'Mạnh','012345678','Thái Bình','manh@gmail.com',GETDATE(),1),
+       (2,N'Phòng mơi xây lại', N'Đẹp', 35, 1400000, 'phong-tro-cho-thue.jpg', N'Ba Vì Hà Nội',N'Mạnh','012345678','Thái Bình','manh@gmail.com',GETDATE(),1),
+       (1,N'Phòng gần CÔng Viên', N'Đẹp', 35, 1400000, 'nha-tro-1.jpg', N'Hoàng Mai Hà Nội',N'Núi','012345678','Thái Bình','nui@gmail.com',GETDATE(),1),
+       (3,N'Gần bến xe nội thành', N'Đẹp', 35, 1400000, 'xay-phong-tro-gia-bao-nhieu-3.jpg', N'Hoàng Mai Hà Nội',N'QUyền','012345678','Thái Bình','quyen@gmail.com',GETDATE(),1);
 go
 go
 select * from tblMotel
@@ -124,4 +127,15 @@ VALUES (N'Định Công',1),
         (N'Phú Trọng',5),
         (N'Ngô Quyền',6),
        (N'La Thăng',9);
+go
+go
+INSERT INTO tblVillage (Name, District_id)
+VALUES (N'Định Công',2),
+        (N'Giải Phóng',2),
+        (N'HOàng Diệu',4),
+        (N'Thanh Xuân',3),
+        (N'Quang Trung',7),
+        (N'Phú Trọng',8),
+        (N'Ngô Quyền',7),
+       (N'La Thăng',3);
 go
